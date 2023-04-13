@@ -8,7 +8,8 @@ import { User } from "@prisma/client"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
 
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 import { userNameSchema } from "@/lib/validations/user"
 import { Icons } from "@/components/icons"
 import { buttonVariants } from "@/components/ui/button"

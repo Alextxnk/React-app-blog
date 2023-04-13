@@ -8,7 +8,8 @@ import { signIn } from "next-auth/react"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
 
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 import { userAuthSchema } from "@/lib/validations/auth"
 import { Icons } from "@/components/icons"
 import { buttonVariants } from "@/components/ui/button"

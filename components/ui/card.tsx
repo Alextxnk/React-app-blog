@@ -1,4 +1,5 @@
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 import { Skeleton } from "@/components/ui/skeleton"
 
 interface CardProps extends React.HTMLAttributes<HTMLDivElement> {}

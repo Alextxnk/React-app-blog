@@ -3,7 +3,8 @@
 import * as React from "react"
 import { toast } from "@/hooks/use-toast"
 
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 
 interface DocsSearchProps extends React.HTMLAttributes<HTMLFormElement> {}
 

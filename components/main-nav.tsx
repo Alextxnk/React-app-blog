@@ -6,7 +6,8 @@ import { useSelectedLayoutSegment } from "next/navigation"
 
 import { MainNavItem } from "types"
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 import { Icons } from "@/components/icons"
 import { MobileNav } from "@/components/mobile-nav"
 

@@ -1,7 +1,8 @@
 import Link from "next/link"
 
 import { marketingConfig } from "@/config/marketing"
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
+import cn from 'classnames';
 import { MainNav } from "@/components/main-nav"
 import { SiteFooter } from "@/components/site-footer"
 import { buttonVariants } from "@/components/ui/button"
