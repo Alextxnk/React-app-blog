@@ -161,7 +161,7 @@
         "id": "(sc_client)/./components/main-nav.tsx",
         "name": "",
         "chunks": [
-          "app/(marketing)/layout:app/(marketing)/layout"
+          "app/(docs)/layout:app/(docs)/layout"
         ],
         "async": false
       },
@@ -169,7 +169,7 @@
         "id": "(sc_client)/./components/main-nav.tsx",
         "name": "*",
         "chunks": [
-          "app/(marketing)/layout:app/(marketing)/layout"
+          "app/(docs)/layout:app/(docs)/layout"
         ],
         "async": false
       },
@@ -177,7 +177,7 @@
         "id": "(sc_client)/./components/main-nav.tsx",
         "name": "MainNav",
         "chunks": [
-          "app/(marketing)/layout:app/(marketing)/layout"
+          "app/(docs)/layout:app/(docs)/layout"
         ],
         "async": false
       }
@@ -187,7 +187,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(auth)/login/page:app/(auth)/login/page"
         ],
         "async": false
       },
@@ -195,7 +195,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(auth)/login/page:app/(auth)/login/page"
         ],
         "async": false
       },
@@ -203,7 +203,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(auth)/login/page:app/(auth)/login/page"
         ],
         "async": false
       }
@@ -213,7 +213,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -221,7 +221,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -229,7 +229,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       }
@@ -239,7 +239,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
         "name": "",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -247,7 +247,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
         "name": "*",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -255,7 +255,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
         "name": "default",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       }
@@ -265,7 +265,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -273,7 +273,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -281,7 +281,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -289,7 +289,7 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "__esModule",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
         "async": false
       },
@@ -297,7 +297,119 @@
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/search.tsx": {
+      "": {
+        "id": "(sc_client)/./components/search.tsx",
+        "name": "",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/search.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      },
+      "DocsSearch": {
+        "id": "(sc_client)/./components/search.tsx",
+        "name": "DocsSearch",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/sidebar-nav.tsx": {
+      "": {
+        "id": "(sc_client)/./components/sidebar-nav.tsx",
+        "name": "",
+        "chunks": [
+          "app/(docs)/docs/layout:app/(docs)/docs/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/sidebar-nav.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/docs/layout:app/(docs)/docs/layout"
+        ],
+        "async": false
+      },
+      "DocsSidebarNav": {
+        "id": "(sc_client)/./components/sidebar-nav.tsx",
+        "name": "DocsSidebarNav",
+        "chunks": [
+          "app/(docs)/docs/layout:app/(docs)/docs/layout"
+        ],
+        "async": false
+      },
+      "DocsSidebarNavItems": {
+        "id": "(sc_client)/./components/sidebar-nav.tsx",
+        "name": "DocsSidebarNavItems",
+        "chunks": [
+          "app/(docs)/docs/layout:app/(docs)/docs/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/toc.tsx": {
+      "": {
+        "id": "(sc_client)/./components/toc.tsx",
+        "name": "",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/toc.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "DashboardTableOfContents": {
+        "id": "(sc_client)/./components/toc.tsx",
+        "name": "DashboardTableOfContents",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/user-auth-form.tsx": {
+      "": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "UserAuthForm": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "UserAuthForm",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
         ],
         "async": false
       }
@@ -305,6 +417,12 @@
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
+    "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(docs)\\docs\\[[...slug]]\\page": [
+      "static/css/_app-client_styles_mdx_css.css"
+    ],
+    "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\blog\\[...slug]\\page": [
+      "static/css/_app-client_styles_mdx_css.css"
+    ],
     "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\[...slug]\\page": [
       "static/css/_app-client_styles_mdx_css.css"
     ],
@@ -910,7 +1028,7 @@
       "id": "(app-client)/./components/main-nav.tsx",
       "name": "",
       "chunks": [
-        "app/(marketing)/layout:app/(marketing)/layout"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     },
@@ -918,7 +1036,7 @@
       "id": "(app-client)/./components/main-nav.tsx",
       "name": "*",
       "chunks": [
-        "app/(marketing)/layout:app/(marketing)/layout"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     },
@@ -926,7 +1044,7 @@
       "id": "(app-client)/./components/main-nav.tsx",
       "name": "MainNav",
       "chunks": [
-        "app/(marketing)/layout:app/(marketing)/layout"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     }
@@ -936,7 +1054,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     },
@@ -944,7 +1062,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     },
@@ -952,7 +1070,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     }
@@ -962,7 +1080,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     },
@@ -970,7 +1088,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     },
@@ -978,7 +1096,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     }
@@ -988,7 +1106,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -996,7 +1114,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1004,7 +1122,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     }
@@ -1014,7 +1132,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1022,7 +1140,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1030,7 +1148,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     }
@@ -1040,7 +1158,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1048,7 +1166,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1056,7 +1174,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     }
@@ -1066,7 +1184,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1074,7 +1192,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1082,7 +1200,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     }
@@ -1092,7 +1210,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1100,7 +1218,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1108,7 +1226,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1116,7 +1234,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1124,7 +1242,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     }
@@ -1134,7 +1252,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1142,7 +1260,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1150,7 +1268,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1158,7 +1276,7 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],
       "async": false
     },
@@ -1166,7 +1284,119 @@
       "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/(marketing)/[...slug]/page:app/(marketing)/[...slug]/page"
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\search.tsx": {
+    "": {
+      "id": "(app-client)/./components/search.tsx",
+      "name": "",
+      "chunks": [
+        "app/(docs)/layout:app/(docs)/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/search.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(docs)/layout:app/(docs)/layout"
+      ],
+      "async": false
+    },
+    "DocsSearch": {
+      "id": "(app-client)/./components/search.tsx",
+      "name": "DocsSearch",
+      "chunks": [
+        "app/(docs)/layout:app/(docs)/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\sidebar-nav.tsx": {
+    "": {
+      "id": "(app-client)/./components/sidebar-nav.tsx",
+      "name": "",
+      "chunks": [
+        "app/(docs)/docs/layout:app/(docs)/docs/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/sidebar-nav.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(docs)/docs/layout:app/(docs)/docs/layout"
+      ],
+      "async": false
+    },
+    "DocsSidebarNav": {
+      "id": "(app-client)/./components/sidebar-nav.tsx",
+      "name": "DocsSidebarNav",
+      "chunks": [
+        "app/(docs)/docs/layout:app/(docs)/docs/layout"
+      ],
+      "async": false
+    },
+    "DocsSidebarNavItems": {
+      "id": "(app-client)/./components/sidebar-nav.tsx",
+      "name": "DocsSidebarNavItems",
+      "chunks": [
+        "app/(docs)/docs/layout:app/(docs)/docs/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\toc.tsx": {
+    "": {
+      "id": "(app-client)/./components/toc.tsx",
+      "name": "",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/toc.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "DashboardTableOfContents": {
+      "id": "(app-client)/./components/toc.tsx",
+      "name": "DashboardTableOfContents",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\user-auth-form.tsx": {
+    "": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "UserAuthForm": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "UserAuthForm",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
       ],
       "async": false
     }

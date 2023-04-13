@@ -1,4 +1,9 @@
 {
   "/(marketing)/page": "app/(marketing)/page.js",
-  "/(marketing)/[...slug]/page": "app/(marketing)/[...slug]/page.js"
+  "/(marketing)/[...slug]/page": "app/(marketing)/[...slug]/page.js",
+  "/(marketing)/blog/page": "app/(marketing)/blog/page.js",
+  "/(marketing)/blog/[...slug]/page": "app/(marketing)/blog/[...slug]/page.js",
+  "/(docs)/docs/[[...slug]]/page": "app/(docs)/docs/[[...slug]]/page.js",
+  "/(docs)/guides/page": "app/(docs)/guides/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js"
 }
