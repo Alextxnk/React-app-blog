@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-head-element */
 import { Inter as FontSans } from 'next/font/google';
 
 import '@/styles/globals.css';
@@ -74,7 +75,7 @@ export const metadata = {
 export default function RootLayout({ children }: RootLayoutProps) {
    return (
       <html
-         lang='en'
+         lang='ru'
          className={cn(
             'bg-white font-sans text-slate-900 antialiased',
             fontSans.variable

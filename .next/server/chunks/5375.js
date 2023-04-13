@@ -1,0 +1,210 @@
+exports.id = 5375;
+exports.ids = [5375];
+exports.modules = {
+
+/***/ 43862:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/* __next_internal_client_entry_do_not_use__ DashboardTableOfContents */ const { createProxy  } = __webpack_require__(11675);
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\toc.tsx");
+
+
+/***/ }),
+
+/***/ 18195:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "K": () => (/* binding */ getTableOfContents)
+/* harmony export */ });
+/* harmony import */ var mdast_util_toc__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(58953);
+/* harmony import */ var remark__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(16930);
+/* harmony import */ var unist_util_visit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85665);
+// @ts-nocheck
+// TODO: Fix this when we turn strict mode on.
+
+
+
+const textTypes = [
+    "text",
+    "emphasis",
+    "strong",
+    "inlineCode"
+];
+function flattenNode(node) {
+    const p = [];
+    (0,unist_util_visit__WEBPACK_IMPORTED_MODULE_0__/* .visit */ .Vn)(node, (node)=>{
+        if (!textTypes.includes(node.type)) return;
+        p.push(node.value);
+    });
+    return p.join(``);
+}
+function getItems(node, current) {
+    if (!node) {
+        return {};
+    }
+    if (node.type === "paragraph") {
+        (0,unist_util_visit__WEBPACK_IMPORTED_MODULE_0__/* .visit */ .Vn)(node, (item)=>{
+            if (item.type === "link") {
+                current.url = item.url;
+                current.title = flattenNode(node);
+            }
+            if (item.type === "text") {
+                current.title = flattenNode(node);
+            }
+        });
+        return current;
+    }
+    if (node.type === "list") {
+        current.items = node.children.map((i)=>getItems(i, {}));
+        return current;
+    } else if (node.type === "listItem") {
+        const heading = getItems(node.children[0], {});
+        if (node.children.length > 1) {
+            getItems(node.children[1], heading);
+        }
+        return heading;
+    }
+    return {};
+}
+const getToc = ()=>(node, file)=>{
+        const table = (0,mdast_util_toc__WEBPACK_IMPORTED_MODULE_1__/* .toc */ .d)(node);
+        file.data = getItems(table.map, {});
+    };
+async function getTableOfContents(content) {
+    const result = await (0,remark__WEBPACK_IMPORTED_MODULE_2__/* .remark */ .j)().use(getToc).process(content);
+    return result.data;
+}
+
+
+/***/ }),
+
+/***/ 81132:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "DashboardTableOfContents": () => (/* binding */ DashboardTableOfContents)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(56786);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(18038);
+;// CONCATENATED MODULE: ./hooks/use-mounted.ts
+
+function useMounted() {
+    const [mounted, setMounted] = react_.useState(false);
+    react_.useEffect(()=>{
+        setMounted(true);
+    }, []);
+    return mounted;
+}
+
+// EXTERNAL MODULE: ./node_modules/.pnpm/classnames@2.3.2/node_modules/classnames/index.js
+var classnames = __webpack_require__(27790);
+var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+;// CONCATENATED MODULE: ./components/toc.tsx
+
+
+
+// import { cn } from "@/lib/utils"
+
+function DashboardTableOfContents({ toc  }) {
+    const itemIds = react_.useMemo(()=>toc.items ? toc.items.flatMap((item)=>[
+                item.url,
+                item?.items?.map((item)=>item.url)
+            ]).flat().filter(Boolean).map((id)=>id?.split("#")[1]) : [], [
+        toc
+    ]);
+    const activeHeading = useActiveItem(itemIds);
+    const mounted = useMounted();
+    if (!toc?.items) {
+        return null;
+    }
+    return mounted ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "space-y-2",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: "font-medium",
+                children: "On This Page"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Tree, {
+                tree: toc,
+                activeItem: activeHeading
+            })
+        ]
+    }) : null;
+}
+function useActiveItem(itemIds) {
+    const [activeId, setActiveId] = react_.useState("");
+    react_.useEffect(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            entries.forEach((entry)=>{
+                if (entry.isIntersecting) {
+                    setActiveId(entry.target.id);
+                }
+            });
+        }, {
+            rootMargin: `0% 0% -80% 0%`
+        });
+        itemIds?.forEach((id)=>{
+            if (!id) {
+                return;
+            }
+            const element = document.getElementById(id);
+            if (element) {
+                observer.observe(element);
+            }
+        });
+        return ()=>{
+            itemIds?.forEach((id)=>{
+                if (!id) {
+                    return;
+                }
+                const element = document.getElementById(id);
+                if (element) {
+                    observer.unobserve(element);
+                }
+            });
+        };
+    }, [
+        itemIds
+    ]);
+    return activeId;
+}
+function Tree({ tree , level =1 , activeItem  }) {
+    return tree?.items?.length && level < 3 ? /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+        className: classnames_default()("m-0 list-none", {
+            "pl-4": level !== 1
+        }),
+        children: tree.items.map((item, index)=>{
+            return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
+                className: classnames_default()("mt-0 pt-2"),
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: item.url,
+                        className: classnames_default()("inline-block no-underline", item.url === `#${activeItem}` ? "text-state-900 font-medium" : "text-sm text-slate-600 hover:text-slate-900"),
+                        children: item.title
+                    }),
+                    item.items?.length ? /*#__PURE__*/ jsx_runtime_.jsx(Tree, {
+                        tree: item,
+                        level: level + 1,
+                        activeItem: activeItem
+                    }) : null
+                ]
+            }, index);
+        })
+    }) : null;
+}
+
+
+/***/ })
+
+};
+;
