@@ -6,7 +6,7 @@ import { authOptions } from '@/lib/auth';
 import { db } from '@/lib/db';
 import { getCurrentUser } from '@/lib/session';
 import { cn } from '@/lib/utils';
-// import cn from 'classnames';
+
 import { EmptyPlaceholder } from '@/components/empty-placeholder';
 import { DashboardHeader } from '@/components/header';
 import { PostCreateButton } from '@/components/post-create-button';

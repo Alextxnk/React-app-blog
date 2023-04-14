@@ -24,9 +24,10 @@ exports.modules = {
 
 
 
-const Input = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(({ className , ...props }, ref)=>{
+const Input = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(({ className , onChange , ...props }, ref)=>{
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
         className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("flex h-10 w-full rounded-md border border-slate-300 bg-transparent py-2 px-3 text-sm placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 dark:border-slate-700 dark:text-slate-50 dark:focus:ring-slate-400 dark:focus:ring-offset-slate-900", className),
+        onChange: onChange,
         ref: ref,
         ...props
     });
@@ -55,10 +56,9 @@ Input.displayName = "Input";
 
 
 
-// import cn from 'classnames';
 const Label = /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_1__.forwardRef(({ className , ...props }, ref)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_radix_ui_react_label__WEBPACK_IMPORTED_MODULE_3__.Root, {
         ref: ref,
-        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70", className),
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("text-base font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70", className),
         ...props
     }));
 Label.displayName = _radix_ui_react_label__WEBPACK_IMPORTED_MODULE_3__.Root.displayName;

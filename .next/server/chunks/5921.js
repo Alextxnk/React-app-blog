@@ -202,13 +202,13 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 /* harmony export */   "J": () => (/* binding */ siteConfig)
 /* harmony export */ });
 const siteConfig = {
-    name: "Taxonomy",
+    name: `Student's Dashboard`,
     description: "An open source application built using the new router, server components and everything new in Next.js 13.",
-    url: "https://tx.shadcn.com",
+    url: "https://alextxnk-blog.netlify.app/",
     ogImage: "https://tx.shadcn.com/og.jpg",
     links: {
-        twitter: "https://twitter.com/shadcn",
-        github: "https://github.com/Alextxnk"
+        telegram: "https://t.me/alextxnk",
+        github: "https://github.com/Alextxnk/React-app-blog"
     }
 };
 
@@ -289,6 +289,8 @@ const Icons = {
     post: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .FileText */ .acj,
     page: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .File */ .$BE,
     media: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Image */ .Eep,
+    student: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .GraduationCap */ .XHo,
+    menu: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .AlignLeft */ .NiS,
     settings: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Settings */ .Zrf,
     billing: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .CreditCard */ .aBT,
     ellipsis: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .MoreVertical */ .hlC,
@@ -352,7 +354,6 @@ var utils = __webpack_require__(24995);
 
 
 
-// import cn from 'classnames';
 const ToastProvider = dist.Provider;
 const ToastViewport = /*#__PURE__*/ react_.forwardRef(({ className , ...props }, ref)=>/*#__PURE__*/ jsx_runtime_.jsx(dist.Viewport, {
         ref: ref,

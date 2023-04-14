@@ -8,8 +8,10 @@ import { signIn } from 'next-auth/react';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 
+// import { validation } from '@/lib/validation';
+
 import { cn } from '@/lib/utils';
-// import cn from 'classnames';
+
 import { userAuthSchema } from '@/lib/validations/auth';
 import { Icons } from '@/components/icons';
 import { buttonVariants } from '@/components/ui/button';
@@ -28,9 +30,62 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
    } = useForm<FormData>({
       resolver: zodResolver(userAuthSchema)
    });
+
+   const [data, setData] = React.useState<object>({ email: '', password: '' });
+   // const [errorsForm, setErrorsForm] = React.useState<object>({});
+
    const [isLoading, setIsLoading] = React.useState<boolean>(false);
    const [isGitHubLoading, setIsGitHubLoading] = React.useState<boolean>(false);
    const searchParams = useSearchParams();
+
+   /* const handleChange = ({ target }) => {
+      setData((prevState) => ({
+         ...prevState,
+         [target.name]: target.value
+      }));
+   }; */
+
+   /* const validationConfig = {
+      email: {
+         isRequired: {
+            message: 'Электронная почта обязательна для заполнения'
+         },
+         isEmail: { message: 'Email введен некорректно' }
+      },
+      password: {
+         isRequired: { message: 'Пароль обязателен для заполнения' },
+         isCapitalSymbol: {
+            message: 'Пароль должен содержать хотя бы одну заглавную букву'
+         },
+         isContainDigit: {
+            message: 'Пароль должен содержать хотя бы одно число'
+         },
+         min: {
+            message: 'Пароль должен состоять минимум из 8 символов',
+            value: 8
+         }
+      }
+   };
+
+   const validate = () => {
+      const errorsForm = validation(data, validationConfig);
+
+      setErrorsForm(errorsForm);
+      return Object.keys(errorsForm).length === 0;
+   };
+
+   React.useEffect(() => {
+      validate();
+   }, [data]);
+
+   const isValid = Object.keys(errorsForm).length === 0;
+ */
+   /* const handleSubmit = (e) => {
+      e.preventDefault();
+      const isValid = validate();
+      if (!isValid) return;
+      console.log(data);
+   }; */
 
    async function onSubmit(data: FormData) {
       setIsLoading(true);
@@ -45,40 +100,72 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
 
       if (!signInResult?.ok) {
          return toast({
-            title: 'Something went wrong.',
-            description: 'Your sign in request failed. Please try again.',
+            title: 'Что-то пошло не так.',
+            description:
+               'Ваш запрос на вход не выполнен. Пожалуйста, попробуйте снова.',
             variant: 'destructive'
          });
       }
 
       return toast({
-         title: 'Check your email',
+         title: 'Проверьте свою электронную почту',
          description:
-            'We sent you a login link. Be sure to check your spam too.'
+            'Мы отправили вам ссылку для входа в систему. Обязательно проверьте также свой спам.'
       });
    }
 
+   // className='sr-only'
    return (
       <div className={cn('grid gap-6', className)} {...props}>
          <form onSubmit={handleSubmit(onSubmit)}>
             <div className='grid gap-2'>
                <div className='grid gap-1'>
-                  <Label className='sr-only' htmlFor='email'>
-                     Email
+                  <Label className='ml-1 mb-1' htmlFor='email'>
+                     Электронная почта
                   </Label>
                   <Input
                      id='email'
                      placeholder='name@example.com'
                      type='email'
+                     /* onChange={handleChange} */
                      autoCapitalize='none'
                      autoComplete='email'
                      autoCorrect='off'
                      disabled={isLoading || isGitHubLoading}
                      {...register('email')}
                   />
+                  {/* {errorsForm.email && (
+                     <p className='ml-1 text-sm text-red-600'>
+                        {errorsForm.email.message}
+                     </p>
+                  )} */}
                   {errors?.email && (
-                     <p className='px-1 text-xs text-red-600'>
+                     <p className='ml-1 text-sm text-red-600'>
                         {errors.email.message}
+                     </p>
+                  )}
+               </div>
+               <div className='grid gap-1'>
+                  <Label className='ml-1 mb-1' htmlFor='password'>
+                     Пароль
+                  </Label>
+                  <Input
+                     id='password'
+                     type='password'
+                     autoCapitalize='none'
+                     autoComplete='password'
+                     autoCorrect='off'
+                     disabled={isLoading || isGitHubLoading}
+                     {...register('password')}
+                  />
+                  {/* {errorsForm.email && (
+                     <p className='ml-1 text-sm text-red-600'>
+                        {errorsForm.email.message}
+                     </p>
+                  )} */}
+                  {errors?.password && (
+                     <p className='ml-1 text-sm text-red-600'>
+                        {errors.password.message}
                      </p>
                   )}
                </div>
@@ -86,11 +173,11 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                   {isLoading && (
                      <Icons.spinner className='mr-2 h-4 w-4 animate-spin' />
                   )}
-                  Sign In with Email
+                  Войти
                </button>
             </div>
          </form>
-         <div className='relative'>
+         {/* <div className='relative'>
             <div className='absolute inset-0 flex items-center'>
                <span className='w-full border-t border-slate-300' />
             </div>
@@ -115,7 +202,7 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                <Icons.gitHub className='mr-2 h-4 w-4' />
             )}{' '}
             Github
-         </button>
+         </button> */}
       </div>
    );
 }

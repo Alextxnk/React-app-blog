@@ -251,7 +251,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// import cn from 'classnames';
 
 
 const metadata = {

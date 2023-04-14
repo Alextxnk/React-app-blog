@@ -5,7 +5,7 @@ import { useLockBody } from '@/hooks/use-lock-body';
 import { MainNavItem } from 'types';
 import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
-// import cn from 'classnames';
+
 import { Icons } from '@/components/icons';
 
 interface MobileNavProps {
@@ -24,7 +24,7 @@ export function MobileNav({ items, children }: MobileNavProps) {
       >
          <div className='relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-md'>
             <Link href='/' className='flex items-center space-x-2'>
-               <Icons.logo />
+               <Icons.student />
                <span className='font-bold'>{siteConfig.name}</span>
             </Link>
             <nav className='grid grid-flow-row auto-rows-max text-sm'>

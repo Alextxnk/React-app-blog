@@ -34,13 +34,13 @@ var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 var navigation = __webpack_require__(98440);
 ;// CONCATENATED MODULE: ./config/site.ts
 const siteConfig = {
-    name: "Taxonomy",
+    name: `Student's Dashboard`,
     description: "An open source application built using the new router, server components and everything new in Next.js 13.",
-    url: "https://tx.shadcn.com",
+    url: "https://alextxnk-blog.netlify.app/",
     ogImage: "https://tx.shadcn.com/og.jpg",
     links: {
-        twitter: "https://twitter.com/shadcn",
-        github: "https://github.com/Alextxnk"
+        telegram: "https://t.me/alextxnk",
+        github: "https://github.com/Alextxnk/React-app-blog"
     }
 };
 
@@ -66,7 +66,6 @@ function useLockBody() {
 
 
 
-// import cn from 'classnames';
 
 function MobileNav({ items , children  }) {
     useLockBody();
@@ -79,7 +78,7 @@ function MobileNav({ items , children  }) {
                     href: "/",
                     className: "flex items-center space-x-2",
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.logo */.P.logo, {}),
+                        /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.student */.P.student, {}),
                         /*#__PURE__*/ jsx_runtime_.jsx("span", {
                             className: "font-bold",
                             children: siteConfig.name
@@ -107,7 +106,6 @@ function MobileNav({ items , children  }) {
 
 
 
-// import cn from 'classnames';
 
 
 function MainNav({ items , children  }) {
@@ -120,7 +118,7 @@ function MainNav({ items , children  }) {
                 href: "/",
                 className: "hidden items-center space-x-2 md:flex",
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.logo */.P.logo, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.student */.P.student, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "hidden font-bold sm:inline-block",
                         children: siteConfig.name
@@ -139,10 +137,10 @@ function MainNav({ items , children  }) {
                 className: "flex items-center space-x-2 md:hidden",
                 onClick: ()=>setShowMobileMenu(!showMobileMenu),
                 children: [
-                    showMobileMenu ? /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.close */.P.close, {}) : /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.logo */.P.logo, {}),
+                    showMobileMenu ? /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.close */.P.close, {}) : /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.menu */.P.menu, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx("span", {
                         className: "font-bold",
-                        children: "Menu"
+                        children: "Меню"
                     })
                 ]
             }),

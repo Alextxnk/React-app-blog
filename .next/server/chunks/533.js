@@ -24,38 +24,28 @@ function SiteFooter() {
                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                     className: "flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_2__/* .Icons.logo */ .P.logo, {}),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_2__/* .Icons.student */ .P.student, {}),
                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                             className: "text-center text-sm leading-loose md:text-left",
                             children: [
                                 "Built by",
                                 " ",
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: _config_site__WEBPACK_IMPORTED_MODULE_1__/* .siteConfig.links.twitter */ .J.links.twitter,
+                                    href: _config_site__WEBPACK_IMPORTED_MODULE_1__/* .siteConfig.links.telegram */ .J.links.telegram,
                                     target: "_blank",
                                     rel: "noreferrer",
                                     className: "font-medium underline underline-offset-4",
-                                    children: "shadcn"
+                                    children: "Alextxnk"
                                 }),
                                 ". Hosted on",
                                 " ",
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "https://vercel.com",
+                                    href: "https://app.netlify.com/",
                                     target: "_blank",
                                     rel: "noreferrer",
                                     className: "font-medium underline underline-offset-4",
-                                    children: "Vercel"
-                                }),
-                                ". Illustrations by",
-                                " ",
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                    href: "https://popsy.co",
-                                    target: "_blank",
-                                    rel: "noreferrer",
-                                    className: "font-medium underline underline-offset-4",
-                                    children: "Popsy"
-                                }),
-                                "."
+                                    children: "Netlify"
+                                })
                             ]
                         })
                     ]
@@ -71,8 +61,7 @@ function SiteFooter() {
                             rel: "noreferrer",
                             className: "font-medium underline underline-offset-4",
                             children: "GitHub"
-                        }),
-                        "."
+                        })
                     ]
                 })
             ]

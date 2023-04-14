@@ -23,6 +23,8 @@ const Icons = {
     post: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .FileText */ .acj,
     page: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .File */ .$BE,
     media: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Image */ .Eep,
+    student: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .GraduationCap */ .XHo,
+    menu: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .AlignLeft */ .NiS,
     settings: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Settings */ .Zrf,
     billing: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .CreditCard */ .aBT,
     ellipsis: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .MoreVertical */ .hlC,

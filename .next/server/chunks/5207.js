@@ -14,7 +14,6 @@ exports.modules = {
 /* harmony import */ var _components_ui_skeleton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(23379);
 
 
-// import cn from 'classnames';
 
 function Card({ className , ...props }) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -107,7 +106,6 @@ function Skeleton({ className , ...props }) {
 ;// CONCATENATED MODULE: ./components/ui/card.tsx
 
 
-// import cn from 'classnames';
 
 function Card({ className , ...props }) {
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {

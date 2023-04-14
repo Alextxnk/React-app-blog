@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
 import { cn } from '@/lib/utils';
-// import cn from 'classnames';
+
 import { Icons } from '@/components/icons';
 import { buttonVariants } from '@/components/ui/button';
-import { UserAuthForm } from '@/components/user-auth-form';
+import { UserRegisterForm } from '@/components/user-register-form';
 
 export const metadata = {
    title: 'Create an account',
@@ -13,48 +13,65 @@ export const metadata = {
 
 export default function RegisterPage() {
    return (
-      <div className='container grid h-screen w-screen flex-col items-center justify-center lg:max-w-none lg:grid-cols-2 lg:px-0'>
+      <div className='container flex h-screen w-screen flex-col items-center justify-center'>
          <Link
+            href='/'
+            className={cn(
+               buttonVariants({ variant: 'ghost' }),
+               'absolute top-4 left-4 md:top-8 md:left-8'
+            )}
+         >
+            <>
+               <Icons.chevronLeft className='mr-2 h-4 w-4' />
+               На главную
+            </>
+         </Link>
+         {/* <Link
             href='/login'
             className={cn(
                buttonVariants({ variant: 'ghost' }),
                'absolute top-4 right-4 md:top-8 md:right-8'
             )}
          >
-            Login
-         </Link>
-         <div className='hidden h-full bg-slate-100 lg:block' />
-         <div className='lg:p-8'>
+            Вход
+         </Link> */}
             <div className='mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]'>
                <div className='flex flex-col space-y-2 text-center'>
-                  <Icons.logo className='mx-auto h-6 w-6' />
+                  <Icons.student className='mx-auto h-6 w-6' />
                   <h1 className='text-2xl font-semibold tracking-tight'>
-                     Create an account
+                     Создать учетную запись
                   </h1>
                   <p className='text-sm text-slate-500 dark:text-slate-400'>
-                     Enter your email below to create your account
+                     Введите свой адрес электронной почты и пароль ниже, чтобы создать учетную запись
                   </p>
                </div>
-               <UserAuthForm />
-               <p className='px-8 text-center text-sm text-slate-500 dark:text-slate-400'>
-                  By clicking continue, you agree to our{' '}
+               <UserRegisterForm />
+               <p className='px-6 text-center text-sm text-slate-500 dark:text-slate-400'>
+               <Link
+                  href='/login'
+                  className='hover:text-brand underline underline-offset-4'
+               >
+                  Уже есть аккаунт? Войти
+               </Link>
+            </p>
+               {/* <p className='px-8 text-center text-sm text-slate-500 dark:text-slate-400'>
+                  Нажав продолжить, вы соглашаетесь с нашими{' '}
                   <Link
                      href='/terms'
                      className='hover:text-brand underline underline-offset-4'
                   >
-                     Terms of Service
+                     Условиями обслуживания
                   </Link>{' '}
-                  and{' '}
+                  и{' '}
                   <Link
                      href='/privacy'
                      className='hover:text-brand underline underline-offset-4'
                   >
-                     Privacy Policy
+                     Политикой конфиденциальности
                   </Link>
                   .
-               </p>
+               </p> */}
             </div>
          </div>
-      </div>
    );
 }
