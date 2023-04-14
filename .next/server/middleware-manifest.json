@@ -61,12 +61,12 @@
       ],
       "assets": [
         {
-          "name": "Inter-Bold.1e3e4a3108c86bc3.ttf",
-          "filePath": "server/edge-chunks/asset_Inter-Bold.1e3e4a3108c86bc3.ttf"
-        },
-        {
           "name": "Inter-Regular.8c0fe73bdbebb91d.ttf",
           "filePath": "server/edge-chunks/asset_Inter-Regular.8c0fe73bdbebb91d.ttf"
+        },
+        {
+          "name": "Inter-Bold.1e3e4a3108c86bc3.ttf",
+          "filePath": "server/edge-chunks/asset_Inter-Bold.1e3e4a3108c86bc3.ttf"
         },
         {
           "name": "noto-sans-v27-latin-regular.5dda3fca77107598.ttf",

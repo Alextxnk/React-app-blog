@@ -4,7 +4,7 @@ import Link from 'next/link';
 // import { cn } from '@/lib/utils';
 // import cn from 'classnames';
 import { Icons } from '@/components/icons';
-import { buttonVariants } from '@/components/ui/button';
+import { buttonClass } from '@/components/ui/button';
 import { UserAuthForm } from '@/components/user-auth-form';
 
 export const metadata: Metadata = {
@@ -17,9 +17,9 @@ export default function LoginPage() {
       <div className='container flex h-screen w-screen flex-col items-center justify-center'>
          <Link
             href='/'
-            /* className={`${buttonClass.ghost} `} */
-            className={`${buttonVariants({ variant: 'ghost' })}
-               absolute top-4 left-4 md:top-8 md:left-8`}
+            className={`${buttonClass.ghost} absolute top-4 left-4 md:top-8 md:left-8`}
+            /* className={`${buttonVariants({ variant: 'ghost' })}
+               absolute top-4 left-4 md:top-8 md:left-8`} */
             /* className={cn(
                buttonVariants({ variant: 'ghost' }),
                'absolute top-4 left-4 md:top-8 md:left-8'

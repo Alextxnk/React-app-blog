@@ -241,10 +241,7 @@ function LoginPage() {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                 href: "/",
-                /* className={`${buttonClass.ghost} `} */ className: `${(0,_components_ui_button__WEBPACK_IMPORTED_MODULE_3__/* .buttonVariants */ .dc)({
-                    variant: "ghost"
-                })}
-               absolute top-4 left-4 md:top-8 md:left-8`,
+                className: `${_components_ui_button__WEBPACK_IMPORTED_MODULE_3__/* .buttonClass.ghost */ .sP.ghost} absolute top-4 left-4 md:top-8 md:left-8`,
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_2__/* .Icons.chevronLeft */ .P.chevronLeft, {

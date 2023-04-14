@@ -1846,8 +1846,8 @@ var encode = function encode(str, defaultEncoder, charset, kind, format) {
          || c >= 0x30 && c <= 0x39 // 0-9
          || c >= 0x41 && c <= 0x5A // a-z
          || c >= 0x61 && c <= 0x7A // A-Z
-         || format === formats.RFC1738 && (c === 0x28 || c === 0x29 // ( )
-        )) {
+         || format === formats.RFC1738 && (c === 0x28 || c === 0x29) // ( )
+        ) {
             out += string.charAt(i);
             continue;
         }

@@ -7,9 +7,10 @@ exports.modules = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "dc": () => (/* binding */ buttonVariants)
+/* harmony export */   "dc": () => (/* binding */ buttonVariants),
+/* harmony export */   "sP": () => (/* binding */ buttonClass)
 /* harmony export */ });
-/* unused harmony exports Button, buttonClass */
+/* unused harmony export Button */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45874);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1872);
 /* harmony import */ var class_variance_authority__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42584);
