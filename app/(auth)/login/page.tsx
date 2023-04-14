@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-import { cn } from '@/lib/utils';
+// import { cn } from '@/lib/utils';
 // import cn from 'classnames';
 import { Icons } from '@/components/icons';
 import { buttonVariants } from '@/components/ui/button';
@@ -17,10 +17,13 @@ export default function LoginPage() {
       <div className='container flex h-screen w-screen flex-col items-center justify-center'>
          <Link
             href='/'
-            className={cn(
+            /* className={`${buttonClass.ghost} `} */
+            className={`${buttonVariants({ variant: 'ghost' })}
+               absolute top-4 left-4 md:top-8 md:left-8`}
+            /* className={cn(
                buttonVariants({ variant: 'ghost' }),
                'absolute top-4 left-4 md:top-8 md:left-8'
-            )}
+            )} */
          >
             <>
                <Icons.chevronLeft className='mr-2 h-4 w-4' />
