@@ -231,7 +231,7 @@ function formatDate(input) {
     });
 }
 function absoluteUrl(path) {
-    return `${"http://localhost:3000"}${path}`;
+    return `${"https://alextxnk-blog.netlify.app"}${path}`;
 }
 
 
@@ -619,7 +619,7 @@ function formatDate(input) {
     });
 }
 function absoluteUrl(path) {
-    return `${"http://localhost:3000"}${path}`;
+    return `${"https://alextxnk-blog.netlify.app"}${path}`;
 }
 
 

@@ -110,7 +110,7 @@ function formatDate(input) {
     });
 }
 function absoluteUrl(path) {
-    return `${"http://localhost:3000"}${path}`;
+    return `${"https://alextxnk-blog.netlify.app"}${path}`;
 }
 
 ;// CONCATENATED MODULE: ./pages/api/users/stripe.ts

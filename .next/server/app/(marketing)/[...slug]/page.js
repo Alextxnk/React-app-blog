@@ -298,12 +298,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 26350:
+/***/ 86464:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 14290, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
@@ -350,7 +350,7 @@ async function generateMetadata({ params  }) {
     if (!page) {
         return {};
     }
-    const url = "http://localhost:3000";
+    const url = "https://alextxnk-blog.netlify.app";
     const ogUrl = new URL(`${url}/api/og`);
     ogUrl.searchParams.set("heading", page.title);
     ogUrl.searchParams.set("type", _config_site__WEBPACK_IMPORTED_MODULE_5__/* .siteConfig.name */ .J.name);
