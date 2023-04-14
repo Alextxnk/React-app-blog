@@ -15,7 +15,7 @@
   },
   "settings": {
     "tailwindcss": {
-      "callees": ["cn"]
+      "callees": ["classnames", "clsx", "ctl", "cn"]
     },
     "next": {
       "rootDir": true

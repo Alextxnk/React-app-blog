@@ -411,7 +411,7 @@ async function BlogPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [8368,5577,2584,802,9595,958,908,6570,5004,533,8672,2984,7434], () => (__webpack_exec__(34913)));
+var __webpack_exports__ = __webpack_require__.X(0, [8368,5577,2584,802,9595,5921,6570,5004,533,8672,2984,7434], () => (__webpack_exec__(34913)));
 module.exports = __webpack_exports__;
 
 })();

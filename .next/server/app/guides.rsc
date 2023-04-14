@@ -4,7 +4,7 @@
 4:I{"id":"9584","name":"","chunks":["2272:webpack-36c7499cedf96196","5827:5827-806c6edfe9cca872"],"async":false}
 5:I{"id":"3991","name":"MainNav","chunks":["5753:5753-fa705878aeef53f4","3041:app/(marketing)/layout-89de6d15da2607e7"],"async":false}
 6:I{"id":"5690","name":"DocsSidebarNav","chunks":["5753:5753-fa705878aeef53f4","636:app/(docs)/docs/layout-cc97732dabb71ed0"],"async":false}
-7:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","6529:app/(docs)/layout-bcb3132ddb51cc0c"],"async":false}
+7:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","6529:app/(docs)/layout-8767f6801a5a21ab"],"async":false}
 8:I{"id":"5753","name":"","chunks":["5753:5753-fa705878aeef53f4","2259:app/(marketing)/pricing/page-8d70f68f6c3fc503"],"async":false}
 9:I{"id":"2397","name":"Analytics","chunks":["1654:1654-87f29d7716abd453","3185:app/layout-427059cc294aa935"],"async":false}
 a:I{"id":"8390","name":"Toaster","chunks":["1654:1654-87f29d7716abd453","3185:app/layout-427059cc294aa935"],"async":false}
