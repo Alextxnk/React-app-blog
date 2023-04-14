@@ -4,7 +4,7 @@
 4:I{"id":"9584","name":"","chunks":["2272:webpack-36c7499cedf96196","5827:5827-806c6edfe9cca872"],"async":false}
 5:I{"id":"3991","name":"MainNav","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","3041:app/(marketing)/layout-e2d4bd7037fcc65b"],"async":false}
 6:I{"id":"5690","name":"DocsSidebarNav","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","636:app/(docs)/docs/layout-29488afc8b9a3bf1"],"async":false}
-7:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6529:app/(docs)/layout-14ea611f9f37c198"],"async":false}
+7:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6529:app/(docs)/layout-07bf0b3aa9d524dc"],"async":false}
 8:I{"id":"5753","name":"","chunks":["5753:5753-fa705878aeef53f4","2259:app/(marketing)/pricing/page-8d70f68f6c3fc503"],"async":false}
 9:I{"id":"2397","name":"Analytics","chunks":["2822:2822-fc67b7c96da88f84","8740:8740-7b4cb160f6b7bdce","3185:app/layout-10853ba53d34d6d2"],"async":false}
 a:I{"id":"8390","name":"Toaster","chunks":["2822:2822-fc67b7c96da88f84","8740:8740-7b4cb160f6b7bdce","3185:app/layout-10853ba53d34d6d2"],"async":false}
