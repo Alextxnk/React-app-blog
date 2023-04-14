@@ -412,14 +412,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 43401:
+/***/ 27078:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 56738))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8521))
 
 /***/ }),
 
@@ -648,53 +648,23 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 
 /***/ }),
 
-/***/ 56738:
+/***/ 8521:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "BillingForm": () => (/* binding */ BillingForm)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(56786);
-// EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(18038);
-// EXTERNAL MODULE: ./hooks/use-toast.ts
-var use_toast = __webpack_require__(56452);
-// EXTERNAL MODULE: ./node_modules/.pnpm/clsx@1.2.1/node_modules/clsx/dist/clsx.js
-var clsx = __webpack_require__(16547);
-// EXTERNAL MODULE: ./node_modules/.pnpm/tailwind-merge@1.8.0/node_modules/tailwind-merge/dist/lib/tw-merge.mjs + 11 modules
-var tw_merge = __webpack_require__(81592);
-;// CONCATENATED MODULE: ./lib/utils.ts
-
-
-function cn(...inputs) {
-    return (0,tw_merge/* twMerge */.m)((0,clsx.clsx)(inputs));
-}
-function formatDate(input) {
-    const date = new Date(input);
-    return date.toLocaleDateString("en-US", {
-        month: "long",
-        day: "numeric",
-        year: "numeric"
-    });
-}
-function absoluteUrl(path) {
-    return `${"http://localhost:3000"}${path}`;
-}
-
-// EXTERNAL MODULE: ./components/icons.tsx
-var icons = __webpack_require__(27613);
-// EXTERNAL MODULE: ./components/ui/button.tsx
-var ui_button = __webpack_require__(24472);
-// EXTERNAL MODULE: ./components/ui/card.tsx + 1 modules
-var card = __webpack_require__(34056);
-;// CONCATENATED MODULE: ./components/billing-form.tsx
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "BillingForm": () => (/* binding */ BillingForm)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _hooks_use_toast__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(56452);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(24995);
+/* harmony import */ var _components_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(27613);
+/* harmony import */ var _components_ui_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(24472);
+/* harmony import */ var _components_ui_card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(34056);
 
 
 
@@ -703,14 +673,14 @@ var card = __webpack_require__(34056);
 
 
 function BillingForm({ subscriptionPlan , className , ...props }) {
-    const [isLoading, setIsLoading] = react_.useState(false);
+    const [isLoading, setIsLoading] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);
     async function onSubmit(event) {
         event.preventDefault();
         setIsLoading(!isLoading);
         // Get a Stripe session URL.
         const response = await fetch("/api/users/stripe");
         if (!response?.ok) {
-            return (0,use_toast/* toast */.Am)({
+            return (0,_hooks_use_toast__WEBPACK_IMPORTED_MODULE_2__/* .toast */ .Am)({
                 title: "Something went wrong.",
                 description: "Please refresh the page and try again.",
                 variant: "destructive"
@@ -724,21 +694,21 @@ function BillingForm({ subscriptionPlan , className , ...props }) {
             window.location.href = session.url;
         }
     }
-    return /*#__PURE__*/ jsx_runtime_.jsx("form", {
-        className: cn(className),
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("form", {
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.cn)(className),
         onSubmit: onSubmit,
         ...props,
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(card/* Card */.Z, {
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card */ .Z, {
             children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(card/* Card.Header */.Z.Header, {
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card.Header */ .Z.Header, {
                     children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(card/* Card.Title */.Z.Title, {
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card.Title */ .Z.Title, {
                             children: "Plan"
                         }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)(card/* Card.Description */.Z.Description, {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card.Description */ .Z.Description, {
                             children: [
                                 "You are currently on the ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
                                     children: subscriptionPlan.name
                                 }),
                                 " ",
@@ -747,28 +717,28 @@ function BillingForm({ subscriptionPlan , className , ...props }) {
                         })
                     ]
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx(card/* Card.Content */.Z.Content, {
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card.Content */ .Z.Content, {
                     children: subscriptionPlan.description
                 }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)(card/* Card.Footer */.Z.Footer, {
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_ui_card__WEBPACK_IMPORTED_MODULE_6__/* .Card.Footer */ .Z.Footer, {
                     className: "flex flex-col items-start space-y-2 md:flex-row md:justify-between md:space-x-0",
                     children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
                             type: "submit",
-                            className: cn((0,ui_button/* buttonVariants */.d)()),
+                            className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_5__/* .buttonVariants */ .d)()),
                             disabled: isLoading,
                             children: [
-                                isLoading && /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.spinner */.P.spinner, {
+                                isLoading && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_4__/* .Icons.spinner */ .P.spinner, {
                                     className: "mr-2 h-4 w-4 animate-spin"
                                 }),
                                 subscriptionPlan.isPro ? "Manage Subscription" : "Upgrade to PRO"
                             ]
                         }),
-                        subscriptionPlan.isPro ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                        subscriptionPlan.isPro ? /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                             className: "rounded-full text-xs font-medium",
                             children: [
                                 subscriptionPlan.isCanceled ? "Your plan will be canceled on " : "Your plan renews on ",
-                                formatDate(subscriptionPlan.stripeCurrentPeriodEnd),
+                                (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__/* .formatDate */ .p)(subscriptionPlan.stripeCurrentPeriodEnd),
                                 "."
                             ]
                         }) : null
@@ -789,7 +759,7 @@ function BillingForm({ subscriptionPlan , className , ...props }) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [8368,3883,4217,1125,8353,6321,5921,5004,4472,1333,1899,5207], () => (__webpack_exec__(65472)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,3883,4217,1125,8353,5285,958,908,5004,4472,1333,5102,5207], () => (__webpack_exec__(65472)));
 module.exports = __webpack_exports__;
 
 })();

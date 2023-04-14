@@ -106,16 +106,14 @@ function DocsLayout({ children  }) {
 /* harmony export */   "_": () => (/* binding */ DocsPageHeader)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45874);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6513);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-// import { cn } from "@/lib/utils"
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(65628);
 
 
 function DocsPageHeader({ heading , text , className , ...props }) {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("space-y-4", className),
+                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_1__.cn)("space-y-4", className),
                 ...props,
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
@@ -314,12 +312,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _hooks_use_toast__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(56452);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(27790);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(24995);
 
 
 
-// import { cn } from "@/lib/utils"
 
 function DocsSearch({ className , ...props }) {
     function onSubmit(event) {
@@ -331,7 +327,7 @@ function DocsSearch({ className , ...props }) {
     }
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
         onSubmit: onSubmit,
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()("relative w-full", className),
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.cn)("relative w-full", className),
         ...props,
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
@@ -371,19 +367,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(98440);
 /* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(27790);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(24995);
 
 
 
-// import { cn } from "@/lib/utils"
 
 function DocsSidebarNav({ items  }) {
     const pathname = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.usePathname)();
     return items.length ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: "w-full",
         children: items.map((item, index)=>/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: classnames__WEBPACK_IMPORTED_MODULE_3___default()("pb-8"),
+                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.cn)("pb-8"),
                 children: [
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
                         className: "mb-1 rounded-md px-2 py-1 text-sm font-medium",
@@ -402,7 +396,7 @@ function DocsSidebarNavItems({ items , pathname  }) {
         className: "grid grid-flow-row auto-rows-max text-sm",
         children: items.map((item, index)=>item.href ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                 href: item.disabled ? "#" : item.href,
-                className: classnames__WEBPACK_IMPORTED_MODULE_3___default()("flex w-full items-center rounded-md p-2 hover:underline", item.disabled && "cursor-not-allowed opacity-60", {
+                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_3__.cn)("flex w-full items-center rounded-md p-2 hover:underline", item.disabled && "cursor-not-allowed opacity-60", {
                     "bg-slate-100": pathname === item.href
                 }),
                 target: item.external ? "_blank" : "",

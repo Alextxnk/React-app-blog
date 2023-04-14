@@ -1,15 +1,15 @@
 {
   "/(auth)/login/page": "/login",
-  "/(dashboard)/dashboard/billing/page": "/dashboard/billing",
   "/(auth)/register/page": "/register",
-  "/(dashboard)/dashboard/settings/page": "/dashboard/settings",
+  "/(dashboard)/dashboard/billing/page": "/dashboard/billing",
   "/(dashboard)/dashboard/page": "/dashboard",
+  "/(dashboard)/dashboard/settings/page": "/dashboard/settings",
   "/(docs)/docs/[[...slug]]/page": "/docs/[[...slug]]",
   "/(docs)/guides/[...slug]/page": "/guides/[...slug]",
   "/(docs)/guides/page": "/guides",
+  "/(editor)/editor/[postId]/page": "/editor/[postId]",
   "/(marketing)/[...slug]/page": "/[...slug]",
   "/(marketing)/blog/[...slug]/page": "/blog/[...slug]",
-  "/(editor)/editor/[postId]/page": "/editor/[postId]",
   "/(marketing)/blog/page": "/blog",
   "/(marketing)/page": "/",
   "/(marketing)/pricing/page": "/pricing"

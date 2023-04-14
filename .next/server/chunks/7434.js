@@ -45,9 +45,8 @@ const marketingConfig = {
     ]
 };
 
-// EXTERNAL MODULE: ./node_modules/.pnpm/classnames@2.3.2/node_modules/classnames/index.js
-var classnames = __webpack_require__(6513);
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./lib/utils.ts
+var utils = __webpack_require__(65628);
 // EXTERNAL MODULE: ./components/main-nav.tsx
 var main_nav = __webpack_require__(5092);
 // EXTERNAL MODULE: ./components/site-footer.tsx
@@ -58,8 +57,8 @@ var ui_button = __webpack_require__(58672);
 
 
 
-// import { cn } from "@/lib/utils"
 
+// import cn from 'classnames';
 
 
 
@@ -78,7 +77,7 @@ async function MarketingLayout({ children  }) {
                         /*#__PURE__*/ jsx_runtime.jsx("nav", {
                             children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                 href: "/login",
-                                className: classnames_default()((0,ui_button/* buttonVariants */.d)({
+                                className: (0,utils.cn)((0,ui_button/* buttonVariants */.d)({
                                     size: "sm"
                                 }), "px-4"),
                                 children: "Вход"

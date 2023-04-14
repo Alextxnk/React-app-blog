@@ -10,14 +10,12 @@ exports.modules = {
 /* harmony export */   "O": () => (/* binding */ Skeleton)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45874);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6513);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-// import { cn } from "@/lib/utils"
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(65628);
 
 
 function Skeleton({ className , ...props }) {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_1___default()("h-5 w-2/5 animate-pulse rounded-lg bg-slate-100", className),
+        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_1__.cn)("h-5 w-2/5 animate-pulse rounded-lg bg-slate-100", className),
         ...props
     });
 }

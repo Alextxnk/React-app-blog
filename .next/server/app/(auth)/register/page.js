@@ -220,16 +220,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45874);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(96838);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6513);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(65628);
 /* harmony import */ var _components_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(96570);
 /* harmony import */ var _components_ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(58672);
 /* harmony import */ var _components_user_auth_form__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(82899);
 /* harmony import */ var _components_user_auth_form__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_components_user_auth_form__WEBPACK_IMPORTED_MODULE_5__);
 
 
-// import { cn } from "@/lib/utils"
 
+// import cn from 'classnames';
 
 
 
@@ -243,7 +242,7 @@ function RegisterPage() {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                 href: "/login",
-                className: classnames__WEBPACK_IMPORTED_MODULE_2___default()((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
+                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
                     variant: "ghost"
                 }), "absolute top-4 right-4 md:top-8 md:right-8"),
                 children: "Login"
@@ -311,7 +310,7 @@ function RegisterPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [8368,5577,2584,4217,5544,9562,5921,6570,8672,4472,3938,4298], () => (__webpack_exec__(95997)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,4217,5544,9562,958,908,6570,8672,4472,3938,4298], () => (__webpack_exec__(95997)));
 module.exports = __webpack_exports__;
 
 })();

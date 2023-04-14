@@ -245,14 +245,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45874);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(96838);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6513);
-/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _lib_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(65628);
 /* harmony import */ var _components_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(96570);
 /* harmony import */ var _components_ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(58672);
 
 
-// import { cn } from "@/lib/utils"
 
+// import cn from 'classnames';
 
 
 const metadata = {
@@ -363,7 +362,7 @@ function PricingPage() {
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 href: "/login",
-                                className: classnames__WEBPACK_IMPORTED_MODULE_2___default()((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
+                                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
                                     size: "lg"
                                 })),
                                 children: "Get Started"
@@ -407,7 +406,7 @@ module.exports = __webpack_require__(67681)
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [8368,5577,2584,5921,6570,5004,533,8672,7434], () => (__webpack_exec__(55069)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,958,908,6570,5004,533,8672,7434], () => (__webpack_exec__(55069)));
 module.exports = __webpack_exports__;
 
 })();

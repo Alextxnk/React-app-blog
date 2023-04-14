@@ -106,14 +106,12 @@ function useMounted() {
     return mounted;
 }
 
-// EXTERNAL MODULE: ./node_modules/.pnpm/classnames@2.3.2/node_modules/classnames/index.js
-var classnames = __webpack_require__(27790);
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./lib/utils.ts
+var utils = __webpack_require__(24995);
 ;// CONCATENATED MODULE: ./components/toc.tsx
 
 
 
-// import { cn } from "@/lib/utils"
 
 function DashboardTableOfContents({ toc  }) {
     const itemIds = react_.useMemo(()=>toc.items ? toc.items.flatMap((item)=>[
@@ -180,16 +178,16 @@ function useActiveItem(itemIds) {
 }
 function Tree({ tree , level =1 , activeItem  }) {
     return tree?.items?.length && level < 3 ? /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-        className: classnames_default()("m-0 list-none", {
+        className: (0,utils.cn)("m-0 list-none", {
             "pl-4": level !== 1
         }),
         children: tree.items.map((item, index)=>{
             return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                className: classnames_default()("mt-0 pt-2"),
+                className: (0,utils.cn)("mt-0 pt-2"),
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
                         href: item.url,
-                        className: classnames_default()("inline-block no-underline", item.url === `#${activeItem}` ? "text-state-900 font-medium" : "text-sm text-slate-600 hover:text-slate-900"),
+                        className: (0,utils.cn)("inline-block no-underline", item.url === `#${activeItem}` ? "text-state-900 font-medium" : "text-sm text-slate-600 hover:text-slate-900"),
                         children: item.title
                     }),
                     item.items?.length ? /*#__PURE__*/ jsx_runtime_.jsx(Tree, {

@@ -44,9 +44,8 @@ const siteConfig = {
     }
 };
 
-// EXTERNAL MODULE: ./node_modules/.pnpm/classnames@2.3.2/node_modules/classnames/index.js
-var classnames = __webpack_require__(27790);
-var classnames_default = /*#__PURE__*/__webpack_require__.n(classnames);
+// EXTERNAL MODULE: ./lib/utils.ts
+var utils = __webpack_require__(24995);
 // EXTERNAL MODULE: ./components/icons.tsx
 var icons = __webpack_require__(27613);
 ;// CONCATENATED MODULE: ./hooks/use-lock-body.ts
@@ -66,13 +65,13 @@ function useLockBody() {
 
 
 
-// import { cn } from "@/lib/utils"
 
+// import cn from 'classnames';
 
 function MobileNav({ items , children  }) {
     useLockBody();
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: classnames_default()("fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-bottom-80 md:hidden"),
+        className: (0,utils.cn)("fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-bottom-80 md:hidden"),
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-md",
             children: [
@@ -91,7 +90,7 @@ function MobileNav({ items , children  }) {
                     className: "grid grid-flow-row auto-rows-max text-sm",
                     children: items.map((item, index)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: item.disabled ? "#" : item.href,
-                            className: classnames_default()("flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline", item.disabled && "cursor-not-allowed opacity-60"),
+                            className: (0,utils.cn)("flex w-full items-center rounded-md p-2 text-sm font-medium hover:underline", item.disabled && "cursor-not-allowed opacity-60"),
                             children: item.title
                         }, index))
                 }),
@@ -107,8 +106,8 @@ function MobileNav({ items , children  }) {
 
 
 
-// import { cn } from "@/lib/utils"
 
+// import cn from 'classnames';
 
 
 function MainNav({ items , children  }) {
@@ -132,7 +131,7 @@ function MainNav({ items , children  }) {
                 className: "hidden gap-6 md:flex",
                 children: items?.map((item, index)=>/*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                         href: item.disabled ? "#" : item.href,
-                        className: classnames_default()("flex items-center text-lg font-semibold text-slate-600 sm:text-sm", item.href.startsWith(`/${segment}`) && "text-slate-900", item.disabled && "cursor-not-allowed opacity-80"),
+                        className: (0,utils.cn)("flex items-center text-lg font-semibold text-slate-600 sm:text-sm", item.href.startsWith(`/${segment}`) && "text-slate-900", item.disabled && "cursor-not-allowed opacity-80"),
                         children: item.title
                     }, index))
             }) : null,
