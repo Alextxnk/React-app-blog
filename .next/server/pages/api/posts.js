@@ -26,24 +26,10 @@ module.exports = require("next-auth/next");
 
 /***/ }),
 
-/***/ 9673:
-/***/ ((module) => {
-
-module.exports = require("next-auth/providers/email");
-
-/***/ }),
-
 /***/ 47459:
 /***/ ((module) => {
 
 module.exports = require("next-auth/providers/github");
-
-/***/ }),
-
-/***/ 49834:
-/***/ ((module) => {
-
-module.exports = require("postmark");
 
 /***/ }),
 
@@ -71,8 +57,8 @@ var next_ = __webpack_require__(62113);
 var external_zod_ = __webpack_require__(38316);
 // EXTERNAL MODULE: ./lib/api-middlewares/with-methods.ts
 var with_methods = __webpack_require__(12362);
-// EXTERNAL MODULE: ./lib/auth.ts + 1 modules
-var auth = __webpack_require__(52490);
+// EXTERNAL MODULE: ./lib/auth.ts
+var auth = __webpack_require__(1682);
 // EXTERNAL MODULE: ./lib/db.ts
 var db = __webpack_require__(71543);
 ;// CONCATENATED MODULE: ./lib/exceptions.ts
@@ -173,7 +159,7 @@ async function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [2490,4994], () => (__webpack_exec__(91850)));
+var __webpack_exports__ = __webpack_require__.X(0, [1682,4994], () => (__webpack_exec__(91850)));
 module.exports = __webpack_exports__;
 
 })();

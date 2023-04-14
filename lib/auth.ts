@@ -8,7 +8,7 @@ import { siteConfig } from '@/config/site';
 import { db } from '@/lib/db';
 
 // TODO: Move env vars to env a la t3.
-const postmarkClient = new Client(process.env.POSTMARK_API_TOKEN || '');
+// const postmarkClient = new Client(process.env.POSTMARK_API_TOKEN || '');
 
 export const authOptions: NextAuthOptions = {
    // huh any! I know.
@@ -26,7 +26,7 @@ export const authOptions: NextAuthOptions = {
          clientId: process.env.GITHUB_CLIENT_ID || '',
          clientSecret: process.env.GITHUB_CLIENT_SECRET || ''
       }),
-      EmailProvider({
+      /* EmailProvider({
          from: process.env.SMTP_FROM,
          sendVerificationRequest: async ({ identifier, url, provider }) => {
             const user = await db.user.findUnique({
@@ -61,13 +61,13 @@ export const authOptions: NextAuthOptions = {
                      Value: new Date().getTime() + ''
                   }
                ]
-            });
+            }); 
 
             if (result.ErrorCode) {
                throw new Error(result.Message);
             }
          }
-      })
+      }) */
    ],
    callbacks: {
       async session({ token, session }) {
