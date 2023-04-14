@@ -35,7 +35,7 @@ var navigation = __webpack_require__(98440);
 ;// CONCATENATED MODULE: ./config/site.ts
 const siteConfig = {
     name: `Student's Dashboard`,
-    description: "An open source application built using the new router, server components and everything new in Next.js 13.",
+    description: `Student's Dashboard application built on Next.js 13.`,
     url: "https://alextxnk-blog.netlify.app/",
     ogImage: "https://tx.shadcn.com/og.jpg",
     links: {
@@ -70,9 +70,9 @@ function useLockBody() {
 function MobileNav({ items , children  }) {
     useLockBody();
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: (0,utils.cn)("fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md animate-in slide-in-from-bottom-80 md:hidden"),
+        className: (0,utils.cn)("fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-lg animate-in slide-in-from-bottom-80 md:hidden"),
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-md",
+            className: "relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-lg",
             children: [
                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
                     href: "/",

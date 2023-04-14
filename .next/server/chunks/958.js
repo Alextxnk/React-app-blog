@@ -1,5 +1,5 @@
-exports.id = 5921;
-exports.ids = [5921];
+exports.id = 958;
+exports.ids = [958];
 exports.modules = {
 
 /***/ 19697:
@@ -7,16 +7,6 @@ exports.modules = {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71125));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 26695))
-
-/***/ }),
-
-/***/ 10908:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 36359, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 57446, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 89357, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44815, 23))
 
 /***/ }),
 
@@ -203,7 +193,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 /* harmony export */ });
 const siteConfig = {
     name: `Student's Dashboard`,
-    description: "An open source application built using the new router, server components and everything new in Next.js 13.",
+    description: `Student's Dashboard application built on Next.js 13.`,
     url: "https://alextxnk-blog.netlify.app/",
     ogImage: "https://tx.shadcn.com/og.jpg",
     links: {
