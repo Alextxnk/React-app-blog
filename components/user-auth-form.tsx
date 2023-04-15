@@ -60,7 +60,12 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       });
    }
 
-   // className='sr-only'
+   const [showPassword, setShowPassword] = React.useState<boolean>(false);
+
+   const toggleShowPassword = () => {
+      setShowPassword((prevState) => !prevState);
+   };
+
    return (
       <div className={cn('grid gap-6', className)} {...props}>
          <form onSubmit={handleSubmit(onSubmit)}>
@@ -89,15 +94,24 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                   <Label className='ml-1 mb-1' htmlFor='password'>
                      Пароль
                   </Label>
-                  <Input
-                     id='password'
-                     type='password'
-                     autoCapitalize='none'
-                     autoComplete='password'
-                     autoCorrect='off'
-                     disabled={isLoading || isGitHubLoading}
-                     {...register('password')}
-                  />
+                  <div className='relative'>
+                     <Input
+                        id='password'
+                        type={showPassword ? 'text' : 'password'}
+                        autoCapitalize='none'
+                        autoComplete='password'
+                        autoCorrect='off'
+                        disabled={isLoading || isGitHubLoading}
+                        {...register('password')}
+                     />
+                     <button
+                        className='absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5'
+                        type='button'
+                        onClick={toggleShowPassword}
+                     >
+                        {showPassword ? <Icons.eyeOff /> : <Icons.eye />}
+                     </button>
+                  </div>
                   {errors?.password && (
                      <p className='ml-1 text-sm text-red-600'>
                         {errors.password.message}

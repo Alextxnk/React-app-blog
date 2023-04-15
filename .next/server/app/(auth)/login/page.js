@@ -287,7 +287,7 @@ function LoginPage() {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                 href: "/",
-                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .dc)({
+                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
                     variant: "ghost"
                 }), "absolute top-4 left-4 md:top-8 md:left-8"),
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
@@ -410,7 +410,10 @@ function UserAuthForm({ className , ...props }) {
             description: "Мы отправили вам ссылку для входа в систему. Обязательно проверьте также свой спам."
         });
     }
-    // className='sr-only'
+    const [showPassword, setShowPassword] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);
+    const toggleShowPassword = ()=>{
+        setShowPassword((prevState)=>!prevState);
+    };
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_5__.cn)("grid gap-6", className),
         ...props,
@@ -451,14 +454,25 @@ function UserAuthForm({ className , ...props }) {
                                 htmlFor: "password",
                                 children: "Пароль"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_input__WEBPACK_IMPORTED_MODULE_9__/* .Input */ .I, {
-                                id: "password",
-                                type: "password",
-                                autoCapitalize: "none",
-                                autoComplete: "password",
-                                autoCorrect: "off",
-                                disabled: isLoading || isGitHubLoading,
-                                ...register("password")
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "relative",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_input__WEBPACK_IMPORTED_MODULE_9__/* .Input */ .I, {
+                                        id: "password",
+                                        type: showPassword ? "text" : "password",
+                                        autoCapitalize: "none",
+                                        autoComplete: "password",
+                                        autoCorrect: "off",
+                                        disabled: isLoading || isGitHubLoading,
+                                        ...register("password")
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                        className: "absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5",
+                                        type: "button",
+                                        onClick: toggleShowPassword,
+                                        children: showPassword ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_7__/* .Icons.eyeOff */ .P.eyeOff, {}) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_7__/* .Icons.eye */ .P.eye, {})
+                                    })
+                                ]
                             }),
                             errors?.password && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                 className: "ml-1 text-sm text-red-600",
@@ -467,7 +481,7 @@ function UserAuthForm({ className , ...props }) {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_5__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_8__/* .buttonVariants */ .dc)()),
+                        className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_5__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_8__/* .buttonVariants */ .d)()),
                         disabled: isLoading,
                         children: [
                             isLoading && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_7__/* .Icons.spinner */ .P.spinner, {
@@ -490,6 +504,7 @@ function UserAuthForm({ className , ...props }) {
 
 "use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "$": () => (/* binding */ userRegisterSchema),
 /* harmony export */   "J": () => (/* binding */ userAuthSchema)
 /* harmony export */ });
 /* harmony import */ var zod__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(77616);
@@ -499,6 +514,13 @@ const userAuthSchema = zod__WEBPACK_IMPORTED_MODULE_0__/* .object */ .Ry({
     password: zod__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_().min(8, {
         message: "Пароль должен состоять минимум из 8 символов"
     })
+});
+const userRegisterSchema = zod__WEBPACK_IMPORTED_MODULE_0__/* .object */ .Ry({
+    email: zod__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_().email("Email введен некорректно"),
+    password: zod__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_().min(8, {
+        message: "Пароль должен состоять минимум из 8 символов"
+    }),
+    appointment: zod__WEBPACK_IMPORTED_MODULE_0__/* .string */ .Z_()
 });
 
 
@@ -511,7 +533,7 @@ const userAuthSchema = zod__WEBPACK_IMPORTED_MODULE_0__/* .object */ .Ry({
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,4217,5544,9562,2240,7226,6570,8672,4472,3938], () => (__webpack_exec__(54360)));
+var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,2584,4217,5544,9562,4136,7226,6570,8672,3938], () => (__webpack_exec__(54360)));
 module.exports = __webpack_exports__;
 
 })();

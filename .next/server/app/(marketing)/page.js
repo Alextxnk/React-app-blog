@@ -278,14 +278,6 @@ async function IndexPage() {
 }
 
 
-/***/ }),
-
-/***/ 81416:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__(67681)
-
-
 /***/ })
 
 };
@@ -295,7 +287,7 @@ module.exports = __webpack_require__(67681)
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,2240,6570,5004,533,8672,975], () => (__webpack_exec__(22455)));
+var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,2584,4136,6570,8464,533,8672,975], () => (__webpack_exec__(22455)));
 module.exports = __webpack_exports__;
 
 })();

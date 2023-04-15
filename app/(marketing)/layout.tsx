@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 import { marketingConfig } from '@/config/marketing';
 import { cn } from '@/lib/utils';
-
 import { MainNav } from '@/components/main-nav';
 import { SiteFooter } from '@/components/site-footer';
 import { buttonVariants } from '@/components/ui/button';
@@ -16,10 +15,10 @@ export default async function MarketingLayout({
 }: MarketingLayoutProps) {
    return (
       <div className='flex min-h-screen flex-col'>
-         <header className='container sticky top-0 z-40 bg-white'>
+         <header className='container sticky top-0 z-40 bg-white dark:bg-slate-900 dark:text-slate-50'>
             <div className='flex h-16 items-center justify-between border-b border-b-slate-200 py-4'>
                <MainNav items={marketingConfig.mainNav} />
-               <nav>
+               <nav className='flex items-center space-x-1'>
                   <Link
                      href='/login'
                      className={cn(buttonVariants({ size: 'sm' }), 'px-4')}

@@ -17,7 +17,7 @@ exports.modules = {
 
 function SiteFooter() {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("footer", {
-        className: "container bg-white text-slate-600",
+        className: "container bg-white text-slate-600 dark:bg-slate-900 dark:text-slate-50",
         children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: "flex  flex-col items-center justify-between gap-4 border-t border-t-slate-200 py-10 md:h-24 md:flex-row md:py-0",
             children: [

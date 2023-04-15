@@ -361,7 +361,7 @@ function PricingPage() {
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
                                 href: "/login",
-                                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .dc)({
+                                className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_2__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_4__/* .buttonVariants */ .d)({
                                     size: "lg"
                                 })),
                                 children: "Get Started"
@@ -388,14 +388,6 @@ function PricingPage() {
 }
 
 
-/***/ }),
-
-/***/ 81416:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__(67681)
-
-
 /***/ })
 
 };
@@ -405,7 +397,7 @@ module.exports = __webpack_require__(67681)
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,2240,7226,6570,5004,533,8672,975], () => (__webpack_exec__(44591)));
+var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,2584,4136,7226,6570,8464,533,8672,975], () => (__webpack_exec__(44591)));
 module.exports = __webpack_exports__;
 
 })();

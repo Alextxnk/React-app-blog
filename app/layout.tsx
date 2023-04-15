@@ -7,6 +7,7 @@ import { absoluteUrl, cn } from '@/lib/utils';
 import { Analytics } from '@/components/analytics';
 import { TailwindIndicator } from '@/components/tailwind-indicator';
 import { Toaster } from '@/components/ui/toaster';
+import { ThemeProvider } from '@/components/theme-provider';
 
 const fontSans = FontSans({
    subsets: ['latin'],
@@ -74,19 +75,20 @@ export const metadata = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
    return (
-      <html
-         lang='ru'
-         className={cn(
-            'bg-white font-sans text-slate-900 antialiased',
-            fontSans.variable
-         )}
-      >
+      <html lang='ru' suppressHydrationWarning >
          <head />
-         <body className='min-h-screen'>
-            {children}
+         <body
+            className={cn(
+               'min-h-screen bg-white font-sans text-slate-900 antialiased dark:bg-slate-900 dark:text-slate-50',
+               fontSans.variable
+            )}
+         >
+            <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+               {children}
+               <TailwindIndicator />
+            </ThemeProvider>
             <Analytics />
             <Toaster />
-            <TailwindIndicator />
          </body>
       </html>
    );

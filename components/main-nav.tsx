@@ -10,6 +10,7 @@ import { cn } from '@/lib/utils';
 
 import { Icons } from '@/components/icons';
 import { MobileNav } from '@/components/mobile-nav';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 interface MainNavProps {
    items?: MainNavItem[];
@@ -43,6 +44,7 @@ export function MainNav({ items, children }: MainNavProps) {
                      {item.title}
                   </Link>
                ))}
+               <ThemeToggle isMobile={false} />
             </nav>
          ) : null}
          <button

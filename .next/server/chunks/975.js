@@ -6,7 +6,7 @@ exports.modules = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5125))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82456))
 
 /***/ }),
 
@@ -66,7 +66,7 @@ async function MarketingLayout({ children  }) {
         className: "flex min-h-screen flex-col",
         children: [
             /*#__PURE__*/ jsx_runtime.jsx("header", {
-                className: "container sticky top-0 z-40 bg-white",
+                className: "container sticky top-0 z-40 bg-white dark:bg-slate-900 dark:text-slate-50",
                 children: /*#__PURE__*/ (0,jsx_runtime.jsxs)("div", {
                     className: "flex h-16 items-center justify-between border-b border-b-slate-200 py-4",
                     children: [
@@ -74,9 +74,10 @@ async function MarketingLayout({ children  }) {
                             items: marketingConfig.mainNav
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx("nav", {
+                            className: "flex items-center space-x-1",
                             children: /*#__PURE__*/ jsx_runtime.jsx((link_default()), {
                                 href: "/login",
-                                className: (0,utils.cn)((0,ui_button/* buttonVariants */.dc)({
+                                className: (0,utils.cn)((0,ui_button/* buttonVariants */.d)({
                                     size: "sm"
                                 }), "px-4"),
                                 children: "Вход"

@@ -12,23 +12,34 @@ import * as z from 'zod';
 
 import { cn } from '@/lib/utils';
 
-import { userAuthSchema } from '@/lib/validations/auth';
+import { userRegisterSchema } from '@/lib/validations/auth';
 import { Icons } from '@/components/icons';
 import { buttonVariants } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import {
+   Select,
+   SelectGroup,
+   SelectValue,
+   SelectTrigger,
+   SelectContent,
+   SelectItem
+} from '@/components/ui/select';
 import { Label } from '@/components/ui/label';
 
 interface UserRegisterFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
-type FormData = z.infer<typeof userAuthSchema>;
+type FormData = z.infer<typeof userRegisterSchema>;
 
-export function UserRegisterForm({ className, ...props }: UserRegisterFormProps) {
+export function UserRegisterForm({
+   className,
+   ...props
+}: UserRegisterFormProps) {
    const {
       register,
       handleSubmit,
       formState: { errors }
    } = useForm<FormData>({
-      resolver: zodResolver(userAuthSchema)
+      resolver: zodResolver(userRegisterSchema)
    });
 
    const [data, setData] = React.useState<object>({ email: '', password: '' });
@@ -114,7 +125,12 @@ export function UserRegisterForm({ className, ...props }: UserRegisterFormProps)
       });
    }
 
-   // className='sr-only'
+   const [showPassword, setShowPassword] = React.useState<boolean>(false);
+
+   const toggleShowPassword = () => {
+      setShowPassword((prevState) => !prevState);
+   };
+
    return (
       <div className={cn('grid gap-6', className)} {...props}>
          <form onSubmit={handleSubmit(onSubmit)}>
@@ -149,15 +165,24 @@ export function UserRegisterForm({ className, ...props }: UserRegisterFormProps)
                   <Label className='ml-1 mb-1' htmlFor='password'>
                      Пароль
                   </Label>
-                  <Input
-                     id='password'
-                     type='password'
-                     autoCapitalize='none'
-                     autoComplete='password'
-                     autoCorrect='off'
-                     disabled={isLoading || isGitHubLoading}
-                     {...register('password')}
-                  />
+                  <div className='relative'>
+                     <Input
+                        id='password'
+                        type={showPassword ? 'text' : 'password'}
+                        autoCapitalize='none'
+                        autoComplete='password'
+                        autoCorrect='off'
+                        disabled={isLoading || isGitHubLoading}
+                        {...register('password')}
+                     />
+                     <button
+                        className='absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5'
+                        type='button'
+                        onClick={toggleShowPassword}
+                     >
+                        {showPassword ? <Icons.eyeOff /> : <Icons.eye />}
+                     </button>
+                  </div>
                   {/* {errorsForm.email && (
                      <p className='ml-1 text-sm text-red-600'>
                         {errorsForm.email.message}
@@ -166,6 +191,30 @@ export function UserRegisterForm({ className, ...props }: UserRegisterFormProps)
                   {errors?.password && (
                      <p className='ml-1 text-sm text-red-600'>
                         {errors.password.message}
+                     </p>
+                  )}
+               </div>
+               <div className='grid gap-1'>
+                  <Label className='ml-1 mb-1' htmlFor='password'>
+                     Должность
+                  </Label>
+                  <Select>
+                     <SelectTrigger>
+                        <SelectValue placeholder='Выберите должность' />
+                     </SelectTrigger>
+                     <SelectContent>
+                        <SelectGroup>
+                           <SelectItem value='student'>Студент</SelectItem>
+                           <SelectItem value='teacher'>
+                              Преподаватель
+                           </SelectItem>
+                        </SelectGroup>
+                     </SelectContent>
+                  </Select>
+
+                  {errors?.appointment && (
+                     <p className='ml-1 text-sm text-red-600'>
+                        {errors.appointment.message}
                      </p>
                   )}
                </div>

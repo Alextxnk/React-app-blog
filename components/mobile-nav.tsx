@@ -7,6 +7,7 @@ import { siteConfig } from '@/config/site';
 import { cn } from '@/lib/utils';
 
 import { Icons } from '@/components/icons';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 interface MobileNavProps {
    items: MainNavItem[];
@@ -22,7 +23,7 @@ export function MobileNav({ items, children }: MobileNavProps) {
             'fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-lg animate-in slide-in-from-bottom-80 md:hidden'
          )}
       >
-         <div className='relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-lg'>
+         <div className='relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-lg dark:bg-slate-900 dark:text-slate-50'>
             <Link href='/' className='flex items-center space-x-2'>
                <Icons.student />
                <span className='font-bold'>{siteConfig.name}</span>
@@ -40,6 +41,7 @@ export function MobileNav({ items, children }: MobileNavProps) {
                      {item.title}
                   </Link>
                ))}
+               <ThemeToggle isMobile={true} />
             </nav>
             {children}
          </div>
