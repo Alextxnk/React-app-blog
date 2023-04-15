@@ -236,7 +236,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 95561:
+/***/ 46647:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -284,19 +284,19 @@ __webpack_require__.r(__webpack_exports__);
         'settings',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44052)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\settings\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44052)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\settings\\page.tsx"],
           
         }]
       },
         {
-          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 658)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\settings\\loading.tsx"],
+          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 658)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\settings\\loading.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37634)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\layout.tsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86211)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\loading.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37634)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\layout.tsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86211)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\loading.tsx"],
           
         }
       ]
@@ -308,12 +308,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\settings\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\settings\\page.tsx"];
 
     
     
@@ -332,12 +332,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 38682:
+/***/ 55786:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 80049))
 
@@ -440,7 +440,7 @@ async function SettingsPage() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ UserNameForm */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\user-name-form.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\user-name-form.tsx");
 
 
 /***/ }),
@@ -604,7 +604,7 @@ function UserNameForm({ user , className , ...props }) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,3883,4217,8948,5544,8353,9562,958,908,5004,4472,1333,170,3938,5207], () => (__webpack_exec__(95561)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,3883,4217,8948,5544,8353,9562,2240,7226,5004,4472,1333,9906,3938,5207], () => (__webpack_exec__(46647)));
 module.exports = __webpack_exports__;
 
 })();

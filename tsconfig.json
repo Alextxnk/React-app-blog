@@ -40,7 +40,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated",
-    "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\.next/types/**/*.ts"
+    "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\.next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -51,7 +51,7 @@ export default async function BillingPage() {
           </Card.Header>
           <Card.Content className="space-y-4 pb-6 text-sm">
             <p>
-              Taxonomy app is a demo app using a Stripe test environment.{" "}
+              Student&#8216;s Dashboard app is a demo app using a Stripe test environment.{" "}
               <strong>
                 You can test the upgrade and won&apos;t be charged.
               </strong>

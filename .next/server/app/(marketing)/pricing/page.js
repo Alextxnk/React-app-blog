@@ -140,7 +140,7 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 55069:
+/***/ 44591:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -185,7 +185,7 @@ __webpack_require__.r(__webpack_exports__);
         'pricing',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62181)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\pricing\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 62181)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\pricing\\page.tsx"],
           
         }]
       },
@@ -196,18 +196,18 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\pricing\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\pricing\\page.tsx"];
 
     
     
@@ -226,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 70195:
+/***/ 30279:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23))
@@ -375,7 +375,7 @@ function PricingPage() {
                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
                     className: "max-w-[85%] leading-normal text-slate-700 sm:leading-7",
                     children: [
-                        "Taxonomy is a demo app.",
+                        "Student‘s Dashboard is a demo app.",
                         " ",
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("strong", {
                             children: "You can test the upgrade and won't be charged."
@@ -405,7 +405,7 @@ module.exports = __webpack_require__(67681)
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,958,908,6570,5004,533,8672,7434], () => (__webpack_exec__(55069)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,2240,7226,6570,5004,533,8672,975], () => (__webpack_exec__(44591)));
 module.exports = __webpack_exports__;
 
 })();

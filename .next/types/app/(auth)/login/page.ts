@@ -1,4 +1,4 @@
-// File: C:\Users\Acer\Desktop\Проект по курсу React\taxonomy\app\(auth)\login\page.tsx
+// File: C:\Users\Acer\Desktop\Проект по курсу React\student-dashboard\app\(auth)\login\page.tsx
 import * as entry from '../../../../../app/(auth)/login/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

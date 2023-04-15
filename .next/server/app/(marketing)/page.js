@@ -140,7 +140,7 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 87064:
+/***/ 22455:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -182,23 +182,23 @@ __webpack_require__.r(__webpack_exports__);
         '(marketing)',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 22296)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 22296)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\page.tsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\page.tsx"];
 
     
     
@@ -217,13 +217,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 39033:
+/***/ 1687:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 36359, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 89357, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 57446, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44815, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 89357, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44815, 23))
 
 /***/ }),
 
@@ -246,7 +246,7 @@ __webpack_require__.r(__webpack_exports__);
 
 async function getGitHubStars() {
     try {
-        const response = await fetch("https://api.github.com/repos/shadcn/taxonomy", {
+        const response = await fetch("https://api.github.com/repos/Alextxnk/React-app-blog", {
             headers: {
                 Accept: "application/vnd.github+json",
                 Authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`
@@ -295,7 +295,7 @@ module.exports = __webpack_require__(67681)
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,958,6570,5004,533,8672,7434], () => (__webpack_exec__(87064)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,2240,6570,5004,533,8672,975], () => (__webpack_exec__(22455)));
 module.exports = __webpack_exports__;
 
 })();

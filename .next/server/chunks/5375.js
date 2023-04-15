@@ -6,7 +6,7 @@ exports.modules = {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ DashboardTableOfContents */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\toc.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\toc.tsx");
 
 
 /***/ }),

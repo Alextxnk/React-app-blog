@@ -212,7 +212,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 34913:
+/***/ 87820:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -257,7 +257,7 @@ __webpack_require__.r(__webpack_exports__);
         'blog',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25187)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\blog\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 25187)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\blog\\page.tsx"],
           
         }]
       },
@@ -268,18 +268,18 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\blog\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\blog\\page.tsx"];
 
     
     
@@ -298,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 13471:
+/***/ 88229:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
@@ -411,7 +411,7 @@ async function BlogPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,802,9595,958,908,6570,5004,533,8672,2984,7434], () => (__webpack_exec__(34913)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,2584,802,9595,2240,7226,6570,5004,533,8672,2984,975], () => (__webpack_exec__(87820)));
 module.exports = __webpack_exports__;
 
 })();

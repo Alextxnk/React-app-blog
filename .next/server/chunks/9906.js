@@ -1,8 +1,8 @@
-exports.id = 170;
-exports.ids = [170];
+exports.id = 9906;
+exports.ids = [9906];
 exports.modules = {
 
-/***/ 59493:
+/***/ 88734:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2054));
@@ -11,12 +11,12 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 76965:
+/***/ 88474:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5125));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55433));
@@ -218,7 +218,7 @@ function DashboardHeader({ heading , text , children  }) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ DashboardNav */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\nav.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\nav.tsx");
 
 
 /***/ }),
@@ -227,7 +227,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ PostCreateButton */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\post-create-button.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-create-button.tsx");
 
 
 /***/ }),
@@ -304,7 +304,7 @@ PostItem.Skeleton = function PostItemSkeleton() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ PostOperations */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\post-operations.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-operations.tsx");
 
 
 /***/ }),
@@ -337,7 +337,7 @@ function DashboardShell({ children , className , ...props }) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ UserAccountNav */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\user-account-nav.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\user-account-nav.tsx");
 
 
 /***/ }),

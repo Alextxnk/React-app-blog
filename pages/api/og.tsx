@@ -124,7 +124,7 @@ export default async function handler(req: NextRequest) {
                            stroke-linejoin='round'
                         />
                      </svg>
-                     <div tw='flex ml-2'>github.com/shadcn/taxonomy</div>
+                     <div tw='flex ml-2'>github.com/Alextxnk/React-app-blog</div>
                   </div>
                </div>
             </div>

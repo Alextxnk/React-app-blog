@@ -140,7 +140,7 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 64587:
+/***/ 99766:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -185,29 +185,29 @@ __webpack_require__.r(__webpack_exports__);
         'guides',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21803)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(docs)\\guides\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 21803)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(docs)\\guides\\page.tsx"],
           
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9686)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(docs)\\guides\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9686)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(docs)\\guides\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6754)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(docs)\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6754)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(docs)\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(docs)\\guides\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(docs)\\guides\\page.tsx"];
 
     
     
@@ -226,7 +226,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 70195:
+/***/ 30279:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23))
@@ -400,7 +400,7 @@ function hasField(_, property) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,9595,958,908,6570,5004,533,2984,6865], () => (__webpack_exec__(64587)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,9595,2240,7226,6570,5004,533,2984,4391], () => (__webpack_exec__(99766)));
 module.exports = __webpack_exports__;
 
 })();

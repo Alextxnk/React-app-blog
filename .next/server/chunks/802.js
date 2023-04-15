@@ -51,7 +51,7 @@ function hasField(_, property) {
 
 /* __next_internal_client_entry_do_not_use__  */ 
 const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\client\\image.js");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\client\\image.js");
  //# sourceMappingURL=image.js.map
 
 

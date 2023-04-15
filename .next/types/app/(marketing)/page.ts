@@ -1,4 +1,4 @@
-// File: C:\Users\Acer\Desktop\Проект по курсу React\taxonomy\app\(marketing)\page.tsx
+// File: C:\Users\Acer\Desktop\Проект по курсу React\student-dashboard\app\(marketing)\page.tsx
 import * as entry from '../../../../app/(marketing)/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

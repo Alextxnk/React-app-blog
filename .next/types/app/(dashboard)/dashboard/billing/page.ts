@@ -1,4 +1,4 @@
-// File: C:\Users\Acer\Desktop\Проект по курсу React\taxonomy\app\(dashboard)\dashboard\billing\page.tsx
+// File: C:\Users\Acer\Desktop\Проект по курсу React\student-dashboard\app\(dashboard)\dashboard\billing\page.tsx
 import * as entry from '../../../../../../app/(dashboard)/dashboard/billing/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

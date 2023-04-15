@@ -1,8 +1,8 @@
-exports.id = 958;
-exports.ids = [958];
+exports.id = 2240;
+exports.ids = [2240];
 exports.modules = {
 
-/***/ 19697:
+/***/ 9612:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71125));
@@ -170,7 +170,7 @@ function RootLayout({ children  }) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ Analytics */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\analytics.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\analytics.tsx");
 
 
 /***/ }),
@@ -179,7 +179,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ Toaster */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\ui\\toaster.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\ui\\toaster.tsx");
 
 
 /***/ }),

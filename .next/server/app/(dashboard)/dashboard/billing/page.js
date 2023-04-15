@@ -244,7 +244,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 65472:
+/***/ 57395:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -292,19 +292,19 @@ __webpack_require__.r(__webpack_exports__);
         'billing',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 98485)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\billing\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 98485)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\billing\\page.tsx"],
           
         }]
       },
         {
-          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91078)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\billing\\loading.tsx"],
+          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91078)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\billing\\loading.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37634)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\layout.tsx"],
-'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86211)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\loading.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 37634)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\layout.tsx"],
+'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86211)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\loading.tsx"],
           
         }
       ]
@@ -316,12 +316,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(dashboard)\\dashboard\\billing\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(dashboard)\\dashboard\\billing\\page.tsx"];
 
     
     
@@ -340,12 +340,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 71790:
+/***/ 98366:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8521))
 
@@ -533,7 +533,7 @@ async function BillingPage() {
                                 children: [
                                     /*#__PURE__*/ (0,jsx_runtime.jsxs)("p", {
                                         children: [
-                                            "Taxonomy app is a demo app using a Stripe test environment.",
+                                            "Student‘s Dashboard app is a demo app using a Stripe test environment.",
                                             " ",
                                             /*#__PURE__*/ jsx_runtime.jsx("strong", {
                                                 children: "You can test the upgrade and won't be charged."
@@ -571,7 +571,7 @@ async function BillingPage() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ BillingForm */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\billing-form.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\billing-form.tsx");
 
 
 /***/ }),
@@ -687,7 +687,7 @@ function BillingForm({ subscriptionPlan , className , ...props }) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,3883,4217,8948,8353,5285,958,908,5004,4472,1333,170,5207], () => (__webpack_exec__(65472)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,3883,4217,8948,8353,5285,2240,7226,5004,4472,1333,9906,5207], () => (__webpack_exec__(57395)));
 module.exports = __webpack_exports__;
 
 })();

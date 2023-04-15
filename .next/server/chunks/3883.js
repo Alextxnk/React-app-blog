@@ -318,7 +318,7 @@ if ((typeof exports.default === "function" || typeof exports.default === "object
 "use strict";
 /* __next_internal_client_entry_do_not_use__  */ 
 const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js");
  //# sourceMappingURL=app-router-context.js.map
 
 
@@ -330,7 +330,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 "use strict";
 /* __next_internal_client_entry_do_not_use__  */ 
 const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js");
  //# sourceMappingURL=hooks-client-context.js.map
 
 
@@ -342,7 +342,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 "use strict";
 /* __next_internal_client_entry_do_not_use__  */ 
 const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js");
  //# sourceMappingURL=dynamic-no-ssr.js.map
 
 
@@ -354,7 +354,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 "use strict";
 /* __next_internal_client_entry_do_not_use__  */ 
 const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js");
  //# sourceMappingURL=server-inserted-html.js.map
 
 

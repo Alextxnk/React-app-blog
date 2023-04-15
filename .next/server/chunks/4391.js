@@ -1,8 +1,8 @@
-exports.id = 6865;
-exports.ids = [6865];
+exports.id = 4391;
+exports.ids = [4391];
 exports.modules = {
 
-/***/ 25638:
+/***/ 93196:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
@@ -140,7 +140,7 @@ function DocsPageHeader({ heading , text , className , ...props }) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ DocsSearch */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\search.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\search.tsx");
 
 
 /***/ }),
@@ -149,7 +149,7 @@ module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по кур
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ DocsSidebarNav,DocsSidebarNavItems */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\sidebar-nav.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\sidebar-nav.tsx");
 
 
 /***/ }),

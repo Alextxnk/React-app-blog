@@ -236,7 +236,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 77727:
+/***/ 43910:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -284,19 +284,19 @@ __webpack_require__.r(__webpack_exports__);
         '[postId]',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31712)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(editor)\\editor\\[postId]\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31712)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(editor)\\editor\\[postId]\\page.tsx"],
           
         }]
       },
         {
-          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57245)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(editor)\\editor\\[postId]\\loading.tsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 15636)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(editor)\\editor\\[postId]\\not-found.tsx"],
+          'loading': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57245)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(editor)\\editor\\[postId]\\loading.tsx"],
+'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 15636)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(editor)\\editor\\[postId]\\not-found.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40890)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(editor)\\editor\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 40890)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(editor)\\editor\\layout.tsx"],
           
         }
       ]
@@ -308,12 +308,12 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(editor)\\editor\\[postId]\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(editor)\\editor\\[postId]\\page.tsx"];
 
     
     
@@ -332,19 +332,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 70195:
+/***/ 30279:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23))
 
 /***/ }),
 
-/***/ 36050:
+/***/ 51691:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 83905))
 
@@ -524,7 +524,7 @@ function EditorLayout({ children  }) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /* __next_internal_client_entry_do_not_use__ Editor */ const { createProxy  } = __webpack_require__(11675);
-module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\components\\editor.tsx");
+module.exports = createProxy("C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\editor.tsx");
 
 
 /***/ }),
@@ -762,7 +762,7 @@ function Editor({ post  }) {
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,3883,8948,5544,5698,958,908,6570,4472,1333,4690], () => (__webpack_exec__(77727)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,3883,8948,5544,5698,2240,7226,6570,4472,1333,4690], () => (__webpack_exec__(43910)));
 module.exports = __webpack_exports__;
 
 })();

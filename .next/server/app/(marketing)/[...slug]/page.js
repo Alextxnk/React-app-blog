@@ -212,7 +212,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 28528:
+/***/ 96046:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -257,7 +257,7 @@ __webpack_require__.r(__webpack_exports__);
         '[...slug]',
         {
         children: ['', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 96669)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\[...slug]\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 96669)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\[...slug]\\page.tsx"],
           
         }]
       },
@@ -268,18 +268,18 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 41616)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\layout.tsx"],
           
         }
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 14975)), "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\layout.tsx"],
           
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\taxonomy\\app\\(marketing)\\[...slug]\\page.tsx"];
+    const pages = ["C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\app\\(marketing)\\[...slug]\\page.tsx"];
 
     
     
@@ -298,12 +298,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 36814:
+/***/ 82378:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 14290, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
@@ -428,7 +428,7 @@ async function PagePage({ params  }) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [168,5577,3883,2584,802,5770,958,908,6570,5004,533,8672,2984,7434,5575], () => (__webpack_exec__(28528)));
+var __webpack_exports__ = __webpack_require__.X(0, [168,5577,3883,2584,802,5770,2240,7226,6570,5004,533,8672,2984,975,5575], () => (__webpack_exec__(96046)));
 module.exports = __webpack_exports__;
 
 })();

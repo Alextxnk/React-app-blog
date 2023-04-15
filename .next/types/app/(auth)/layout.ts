@@ -1,4 +1,4 @@
-// File: C:\Users\Acer\Desktop\Проект по курсу React\taxonomy\app\(auth)\layout.tsx
+// File: C:\Users\Acer\Desktop\Проект по курсу React\student-dashboard\app\(auth)\layout.tsx
 import * as entry from '../../../../app/(auth)/layout'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 
