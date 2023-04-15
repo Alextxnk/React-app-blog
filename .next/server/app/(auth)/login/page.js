@@ -377,7 +377,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// import { validation } from '@/lib/validation';
 
 
 
@@ -388,59 +387,10 @@ function UserAuthForm({ className , ...props }) {
     const { register , handleSubmit , formState: { errors  }  } = (0,react_hook_form__WEBPACK_IMPORTED_MODULE_11__/* .useForm */ .cI)({
         resolver: (0,_hookform_resolvers_zod__WEBPACK_IMPORTED_MODULE_12__/* .zodResolver */ .F)(_lib_validations_auth__WEBPACK_IMPORTED_MODULE_6__/* .userAuthSchema */ .J)
     });
-    const [data, setData] = react__WEBPACK_IMPORTED_MODULE_1__.useState({
-        email: "",
-        password: ""
-    });
-    // const [errorsForm, setErrorsForm] = React.useState<object>({});
     const [isLoading, setIsLoading] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);
     const [isGitHubLoading, setIsGitHubLoading] = react__WEBPACK_IMPORTED_MODULE_1__.useState(false);
     const searchParams = (0,next_navigation__WEBPACK_IMPORTED_MODULE_2__.useSearchParams)();
-    /* const handleChange = ({ target }) => {
-      setData((prevState) => ({
-         ...prevState,
-         [target.name]: target.value
-      }));
-   }; */ /* const validationConfig = {
-      email: {
-         isRequired: {
-            message: 'Электронная почта обязательна для заполнения'
-         },
-         isEmail: { message: 'Email введен некорректно' }
-      },
-      password: {
-         isRequired: { message: 'Пароль обязателен для заполнения' },
-         isCapitalSymbol: {
-            message: 'Пароль должен содержать хотя бы одну заглавную букву'
-         },
-         isContainDigit: {
-            message: 'Пароль должен содержать хотя бы одно число'
-         },
-         min: {
-            message: 'Пароль должен состоять минимум из 8 символов',
-            value: 8
-         }
-      }
-   };
-
-   const validate = () => {
-      const errorsForm = validation(data, validationConfig);
-
-      setErrorsForm(errorsForm);
-      return Object.keys(errorsForm).length === 0;
-   };
-
-   React.useEffect(() => {
-      validate();
-   }, [data]);
-
-   const isValid = Object.keys(errorsForm).length === 0;
- */ /* const handleSubmit = (e) => {
-      e.preventDefault();
-      const isValid = validate();
-      if (!isValid) return;
-      console.log(data);
-   }; */ async function onSubmit(data) {
+    async function onSubmit(data) {
         setIsLoading(true);
         const signInResult = await (0,next_auth_react__WEBPACK_IMPORTED_MODULE_4__.signIn)("email", {
             email: data.email.toLowerCase(),
@@ -481,7 +431,7 @@ function UserAuthForm({ className , ...props }) {
                                 id: "email",
                                 placeholder: "name@example.com",
                                 type: "email",
-                                /* onChange={handleChange} */ autoCapitalize: "none",
+                                autoCapitalize: "none",
                                 autoComplete: "email",
                                 autoCorrect: "off",
                                 disabled: isLoading || isGitHubLoading,

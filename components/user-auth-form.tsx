@@ -8,8 +8,6 @@ import { signIn } from 'next-auth/react';
 import { useForm } from 'react-hook-form';
 import * as z from 'zod';
 
-// import { validation } from '@/lib/validation';
-
 import { cn } from '@/lib/utils';
 
 import { userAuthSchema } from '@/lib/validations/auth';
@@ -31,61 +29,9 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       resolver: zodResolver(userAuthSchema)
    });
 
-   const [data, setData] = React.useState<object>({ email: '', password: '' });
-   // const [errorsForm, setErrorsForm] = React.useState<object>({});
-
    const [isLoading, setIsLoading] = React.useState<boolean>(false);
    const [isGitHubLoading, setIsGitHubLoading] = React.useState<boolean>(false);
    const searchParams = useSearchParams();
-
-   /* const handleChange = ({ target }) => {
-      setData((prevState) => ({
-         ...prevState,
-         [target.name]: target.value
-      }));
-   }; */
-
-   /* const validationConfig = {
-      email: {
-         isRequired: {
-            message: 'Электронная почта обязательна для заполнения'
-         },
-         isEmail: { message: 'Email введен некорректно' }
-      },
-      password: {
-         isRequired: { message: 'Пароль обязателен для заполнения' },
-         isCapitalSymbol: {
-            message: 'Пароль должен содержать хотя бы одну заглавную букву'
-         },
-         isContainDigit: {
-            message: 'Пароль должен содержать хотя бы одно число'
-         },
-         min: {
-            message: 'Пароль должен состоять минимум из 8 символов',
-            value: 8
-         }
-      }
-   };
-
-   const validate = () => {
-      const errorsForm = validation(data, validationConfig);
-
-      setErrorsForm(errorsForm);
-      return Object.keys(errorsForm).length === 0;
-   };
-
-   React.useEffect(() => {
-      validate();
-   }, [data]);
-
-   const isValid = Object.keys(errorsForm).length === 0;
- */
-   /* const handleSubmit = (e) => {
-      e.preventDefault();
-      const isValid = validate();
-      if (!isValid) return;
-      console.log(data);
-   }; */
 
    async function onSubmit(data: FormData) {
       setIsLoading(true);
@@ -127,18 +73,12 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                      id='email'
                      placeholder='name@example.com'
                      type='email'
-                     /* onChange={handleChange} */
                      autoCapitalize='none'
                      autoComplete='email'
                      autoCorrect='off'
                      disabled={isLoading || isGitHubLoading}
                      {...register('email')}
                   />
-                  {/* {errorsForm.email && (
-                     <p className='ml-1 text-sm text-red-600'>
-                        {errorsForm.email.message}
-                     </p>
-                  )} */}
                   {errors?.email && (
                      <p className='ml-1 text-sm text-red-600'>
                         {errors.email.message}
@@ -158,11 +98,6 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                      disabled={isLoading || isGitHubLoading}
                      {...register('password')}
                   />
-                  {/* {errorsForm.email && (
-                     <p className='ml-1 text-sm text-red-600'>
-                        {errorsForm.email.message}
-                     </p>
-                  )} */}
                   {errors?.password && (
                      <p className='ml-1 text-sm text-red-600'>
                         {errors.password.message}

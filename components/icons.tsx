@@ -7,6 +7,8 @@ import {
    ChevronRight,
    Command,
    CreditCard,
+   Eye,
+   EyeOff,
    File,
    FileText,
    Github,
@@ -31,6 +33,8 @@ export type Icon = LucideIcon;
 export const Icons = {
    logo: Command,
    close: X,
+   eye: Eye,
+   eyeOff: EyeOff,
    spinner: Loader2,
    chevronLeft: ChevronLeft,
    chevronRight: ChevronRight,

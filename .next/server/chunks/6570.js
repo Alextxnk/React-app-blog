@@ -16,6 +16,8 @@ exports.modules = {
 const Icons = {
     logo: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Command */ .mYg,
     close: lucide_react__WEBPACK_IMPORTED_MODULE_1__.X,
+    eye: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Eye */ .bAj,
+    eyeOff: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .EyeOff */ ._jl,
     spinner: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .Loader2 */ .zM5,
     chevronLeft: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .ChevronLeft */ .s$$,
     chevronRight: lucide_react__WEBPACK_IMPORTED_MODULE_1__/* .ChevronRight */ ._Qn,

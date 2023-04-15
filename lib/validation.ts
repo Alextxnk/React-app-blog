@@ -1,5 +1,9 @@
 export function validation (data: object, config: object): object {
-   const errors = {};
+
+   const errors: {email: string, password: string} = {
+      email: '',
+      password: ''
+   };
 
    function validate (validateMethod: any, data: any, config: any) {
       let statusValidate: any;
