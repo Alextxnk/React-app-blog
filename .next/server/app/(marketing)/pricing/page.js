@@ -397,7 +397,7 @@ function PricingPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,2584,4136,7226,6570,8464,533,8672,975], () => (__webpack_exec__(44591)));
+var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,2584,4627,6570,8464,533,8672,975], () => (__webpack_exec__(44591)));
 module.exports = __webpack_exports__;
 
 })();

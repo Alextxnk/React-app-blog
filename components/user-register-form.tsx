@@ -195,19 +195,23 @@ export function UserRegisterForm({
                   )}
                </div>
                <div className='grid gap-1'>
-                  <Label className='ml-1 mb-1' htmlFor='password'>
+                  <Label className='ml-1 mb-1' htmlFor='appointment'>
                      Должность
                   </Label>
-                  <Select>
+                  <Select defaultValue='' /* {...register('appointment')} */>
                      <SelectTrigger>
                         <SelectValue placeholder='Выберите должность' />
                      </SelectTrigger>
                      <SelectContent>
                         <SelectGroup>
-                           <SelectItem value='student'>Студент</SelectItem>
-                           <SelectItem value='teacher'>
-                              Преподаватель
-                           </SelectItem>
+                           {['Студент', 'Преподаватель'].map((value, index) => (
+                              <SelectItem
+                                 value={value.toLowerCase()}
+                                 key={index}
+                              >
+                                 {value}
+                              </SelectItem>
+                           ))}
                         </SelectGroup>
                      </SelectContent>
                   </Select>

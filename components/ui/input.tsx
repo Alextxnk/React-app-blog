@@ -14,9 +14,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
          setShowPassword((prevState) => !prevState);
       }; */
 
-      React.useEffect(() => {
+      /* React.useEffect(() => {
          console.log(props.type);
-      }, []);
+      }, []); */
 
       return (
             <input

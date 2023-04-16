@@ -3,9 +3,9 @@
 3:I{"id":"7876","name":"ThemeProvider","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-1bc8707c2019280a"],"async":false}
 4:I{"id":"1397","name":"","chunks":["2272:webpack-a743d1f3479792ee","5827:5827-806c6edfe9cca872"],"async":false}
 5:I{"id":"9584","name":"","chunks":["2272:webpack-a743d1f3479792ee","5827:5827-806c6edfe9cca872"],"async":false}
-6:I{"id":"1563","name":"MainNav","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","5977:5977-9a97235f654c28dd","9046:9046-96aa527e8e39297e","1563:1563-b6243db6bf67468d","3041:app/(marketing)/layout-aa7e284b2a44485c"],"async":false}
+6:I{"id":"1563","name":"MainNav","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","5977:5977-9a97235f654c28dd","9046:9046-96aa527e8e39297e","1563:1563-8b4dafbc898e453f","3041:app/(marketing)/layout-aa7e284b2a44485c"],"async":false}
 7:I{"id":"5690","name":"DocsSidebarNav","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","636:app/(docs)/docs/layout-48cbc1ad63ef1ab3"],"async":false}
-8:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","5977:5977-9a97235f654c28dd","9046:9046-96aa527e8e39297e","1563:1563-b6243db6bf67468d","6529:app/(docs)/layout-f43f9b2a569a40e1"],"async":false}
+8:I{"id":"9287","name":"DocsSearch","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","5977:5977-9a97235f654c28dd","9046:9046-96aa527e8e39297e","1563:1563-8b4dafbc898e453f","6529:app/(docs)/layout-70a9ccbc3db213da"],"async":false}
 9:I{"id":"5753","name":"","chunks":["5753:5753-fa705878aeef53f4","2259:app/(marketing)/pricing/page-e0541bfe909808d9"],"async":false}
 a:I{"id":"5139","name":"Analytics","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-1bc8707c2019280a"],"async":false}
 b:I{"id":"988","name":"Toaster","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-1bc8707c2019280a"],"async":false}

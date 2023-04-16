@@ -25,15 +25,15 @@ export function ThemeToggle({ isMobile }) {
          <DropdownMenuContent align='end' forceMount>
             <DropdownMenuItem onClick={() => setTheme('light')}>
                <Icons.sun className='mr-2 h-4 w-4' />
-               <span>Light</span>
+               <span>Светлая</span>
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => setTheme('dark')}>
                <Icons.moon className='mr-2 h-4 w-4' />
-               <span>Dark</span>
+               <span>Темная</span>
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => setTheme('system')}>
                <Icons.laptop className='mr-2 h-4 w-4' />
-               <span>System</span>
+               <span>Системная</span>
             </DropdownMenuItem>
          </DropdownMenuContent>
       </DropdownMenu>

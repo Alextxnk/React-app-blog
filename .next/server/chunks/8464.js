@@ -106,7 +106,7 @@ function ThemeToggle({ isMobile  }) {
                                 className: "mr-2 h-4 w-4"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "Light"
+                                children: "Светлая"
                             })
                         ]
                     }),
@@ -117,7 +117,7 @@ function ThemeToggle({ isMobile  }) {
                                 className: "mr-2 h-4 w-4"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "Dark"
+                                children: "Темная"
                             })
                         ]
                     }),
@@ -128,7 +128,7 @@ function ThemeToggle({ isMobile  }) {
                                 className: "mr-2 h-4 w-4"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "System"
+                                children: "Системная"
                             })
                         ]
                     })
