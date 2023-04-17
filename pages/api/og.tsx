@@ -97,7 +97,7 @@ export default async function handler(req: NextRequest) {
                      tw='flex text-xl'
                      style={{ fontFamily: 'Inter', fontWeight: 'normal' }}
                   >
-                     tx.alextxnk.com
+                     alextxnk-blog.netlify.app
                   </div>
                   <div
                      tw='flex items-center text-xl'

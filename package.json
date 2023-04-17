@@ -9,7 +9,14 @@
     "start": "next start",
     "lint": "next lint",
     "preview": "next build && next start",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "migrate:dev": "npx dotenv -e .env.local -- prisma migrate dev",
+    "db:push": "npx dotenv -e .env.local -- prisma db push",
+    "migrate:reset": "npx dotenv -e .env.local -- prisma migrate reset",
+    "db:seed": "npx dotenv -e .env.local -- prisma db seed",
+    "prisma:generate": "npx dotenv -e .env.local -- prisma generate",
+    "prisma:studio": "npx dotenv -e .env.local -- prisma studio",
+    "production:build": "npx prisma generate && npx prisma migrate deploy && next build"
   },
   "dependencies": {
     "@editorjs/code": "^2.7.0",
@@ -92,6 +99,7 @@
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.8",
+    "dotenv-cli": "^7.2.1",
     "eslint": "^8.31.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",

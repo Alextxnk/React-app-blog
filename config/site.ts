@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
    description:
       `Student's Dashboard application built on Next.js 13.`,
    url: 'https://alextxnk-blog.netlify.app/',
-   ogImage: '../public/og.png',
+   ogImage: 'https://alextxnk-blog.netlify.app/og.jpg',
    links: {
       telegram: 'https://t.me/alextxnk',
       github: 'https://github.com/Alextxnk/React-app-blog'

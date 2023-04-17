@@ -1,50 +1,50 @@
 {
   "..\\components\\editor.tsx -> @editorjs/code": {
-    "id": 3607,
+    "id": "..\\components\\editor.tsx -> @editorjs/code",
     "files": [
-      "static/chunks/3607.560fadc915f89cd4.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_code_2_7_0_node_modules_editorjs_code_dist_bundle_js.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/editorjs": {
-    "id": 9604,
+    "id": "..\\components\\editor.tsx -> @editorjs/editorjs",
     "files": [
-      "static/chunks/e51acfdd.97cded7bdb3c39f0.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_editorjs_2_25_0_node_modules_editorjs_editorjs_dist_ed-f23f1e.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/embed": {
-    "id": 1051,
+    "id": "..\\components\\editor.tsx -> @editorjs/embed",
     "files": [
-      "static/chunks/1051.54cb23c5e3965e56.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_embed_2_5_3_node_modules_editorjs_embed_dist_bundle_js.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/header": {
-    "id": 8899,
+    "id": "..\\components\\editor.tsx -> @editorjs/header",
     "files": [
-      "static/chunks/8899.a160eb3d97d0f25f.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_header_2_6_2_node_modules_editorjs_header_dist_bundle_js.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/inline-code": {
-    "id": 1314,
+    "id": "..\\components\\editor.tsx -> @editorjs/inline-code",
     "files": [
-      "static/chunks/1314.92910254af658ed7.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_inline-code_1_3_1_node_modules_editorjs_inline-code_di-54bda1.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/link": {
-    "id": 8484,
+    "id": "..\\components\\editor.tsx -> @editorjs/link",
     "files": [
-      "static/chunks/8484.e6362633c407dcbb.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_link_2_4_2_node_modules_editorjs_link_dist_bundle_js.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/list": {
-    "id": 5313,
+    "id": "..\\components\\editor.tsx -> @editorjs/list",
     "files": [
-      "static/chunks/5313.26fc4c3d36199a5d.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_list_1_7_0_node_modules_editorjs_list_dist_bundle_js.js"
     ]
   },
   "..\\components\\editor.tsx -> @editorjs/table": {
-    "id": 2557,
+    "id": "..\\components\\editor.tsx -> @editorjs/table",
     "files": [
-      "static/chunks/2557.8259d836cb107426.js"
+      "static/chunks/_app-client_node_modules_pnpm_editorjs_table_2_1_0_node_modules_editorjs_table_dist_table_js.js"
     ]
   }
 }
