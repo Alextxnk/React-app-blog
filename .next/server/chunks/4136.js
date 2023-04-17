@@ -1,5 +1,5 @@
-exports.id = 4627;
-exports.ids = [4627];
+exports.id = 4136;
+exports.ids = [4136];
 exports.modules = {
 
 /***/ 82815:
@@ -8,16 +8,6 @@ exports.modules = {
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 71125));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 89108));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 26695))
-
-/***/ }),
-
-/***/ 77226:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 36359, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 57446, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 89357, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44815, 23))
 
 /***/ }),
 
@@ -111,11 +101,11 @@ const metadata = {
     ],
     authors: [
         {
-            name: "shadcn",
-            url: "https://shadcn.com"
+            name: "Alextxnk",
+            url: "https://alextxnk-blog.netlify.app/"
         }
     ],
-    creator: "shadcn",
+    creator: "Alextxnk",
     themeColor: [
         {
             media: "(prefers-color-scheme: light)",
@@ -149,7 +139,7 @@ const metadata = {
         images: [
             `${site/* siteConfig.url */.J.url}/og.jpg`
         ],
-        creator: "@shadcn"
+        creator: "@alextxnk"
     },
     icons: {
         icon: "/favicon.ico",
@@ -225,7 +215,7 @@ const siteConfig = {
     name: `Student's Dashboard`,
     description: `Student's Dashboard application built on Next.js 13.`,
     url: "https://alextxnk-blog.netlify.app/",
-    ogImage: "https://tx.shadcn.com/og.jpg",
+    ogImage: "../public/og.png",
     links: {
         telegram: "https://t.me/alextxnk",
         github: "https://github.com/Alextxnk/React-app-blog"

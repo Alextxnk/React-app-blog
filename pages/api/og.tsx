@@ -97,7 +97,7 @@ export default async function handler(req: NextRequest) {
                      tw='flex text-xl'
                      style={{ fontFamily: 'Inter', fontWeight: 'normal' }}
                   >
-                     tx.shadcn.com
+                     tx.alextxnk.com
                   </div>
                   <div
                      tw='flex items-center text-xl'

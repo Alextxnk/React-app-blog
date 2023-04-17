@@ -33,11 +33,11 @@ export const metadata = {
    ],
    authors: [
       {
-         name: 'shadcn',
-         url: 'https://shadcn.com'
+         name: 'Alextxnk',
+         url: 'https://alextxnk-blog.netlify.app/'
       }
    ],
-   creator: 'shadcn',
+   creator: 'Alextxnk',
    themeColor: [
       { media: '(prefers-color-scheme: light)', color: 'white' },
       { media: '(prefers-color-scheme: dark)', color: 'black' }
@@ -63,7 +63,7 @@ export const metadata = {
       title: siteConfig.name,
       description: siteConfig.description,
       images: [`${siteConfig.url}/og.jpg`],
-      creator: '@shadcn'
+      creator: '@alextxnk'
    },
    icons: {
       icon: '/favicon.ico',
