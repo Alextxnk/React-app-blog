@@ -182,6 +182,84 @@
         "async": false
       }
     },
+    "(app-client)/./components/main-nav.tsx": {
+      "": {
+        "id": "(sc_client)/./components/main-nav.tsx",
+        "name": "",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/main-nav.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      },
+      "MainNav": {
+        "id": "(sc_client)/./components/main-nav.tsx",
+        "name": "MainNav",
+        "chunks": [
+          "app/(docs)/layout:app/(docs)/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/user-auth-form.tsx": {
+      "": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "UserAuthForm": {
+        "id": "(sc_client)/./components/user-auth-form.tsx",
+        "name": "UserAuthForm",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./components/post-create-button.tsx": {
       "": {
         "id": "(sc_client)/./components/post-create-button.tsx",
@@ -234,32 +312,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "": {
         "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
@@ -298,32 +350,6 @@
         "name": "suspense",
         "chunks": [
           "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/main-nav.tsx": {
-      "": {
-        "id": "(sc_client)/./components/main-nav.tsx",
-        "name": "",
-        "chunks": [
-          "app/(docs)/layout:app/(docs)/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/main-nav.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(docs)/layout:app/(docs)/layout"
-        ],
-        "async": false
-      },
-      "MainNav": {
-        "id": "(sc_client)/./components/main-nav.tsx",
-        "name": "MainNav",
-        "chunks": [
-          "app/(docs)/layout:app/(docs)/layout"
         ],
         "async": false
       }
@@ -432,84 +458,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/user-auth-form.tsx": {
-      "": {
-        "id": "(sc_client)/./components/user-auth-form.tsx",
-        "name": "",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/user-auth-form.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      },
-      "UserAuthForm": {
-        "id": "(sc_client)/./components/user-auth-form.tsx",
-        "name": "UserAuthForm",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/user-register-form.tsx": {
-      "": {
-        "id": "(sc_client)/./components/user-register-form.tsx",
-        "name": "",
-        "chunks": [
-          "app/(auth)/register/page:app/(auth)/register/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/user-register-form.tsx",
-        "name": "*",
-        "chunks": [
-          "app/(auth)/register/page:app/(auth)/register/page"
-        ],
-        "async": false
-      },
-      "UserRegisterForm": {
-        "id": "(sc_client)/./components/user-register-form.tsx",
-        "name": "UserRegisterForm",
-        "chunks": [
-          "app/(auth)/register/page:app/(auth)/register/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/search.tsx": {
       "": {
         "id": "(sc_client)/./components/search.tsx",
@@ -590,6 +538,32 @@
       "DashboardTableOfContents": {
         "id": "(sc_client)/./components/toc.tsx",
         "name": "DashboardTableOfContents",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "default",
         "chunks": [
           "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
         ],
@@ -1251,54 +1225,28 @@
       "async": false
     }
   },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-create-button.tsx": {
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\main-nav.tsx": {
     "": {
-      "id": "(app-client)/./components/post-create-button.tsx",
+      "id": "(app-client)/./components/main-nav.tsx",
       "name": "",
       "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./components/post-create-button.tsx",
+      "id": "(app-client)/./components/main-nav.tsx",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     },
-    "PostCreateButton": {
-      "id": "(app-client)/./components/post-create-button.tsx",
-      "name": "PostCreateButton",
+    "MainNav": {
+      "id": "(app-client)/./components/main-nav.tsx",
+      "name": "MainNav",
       "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-operations.tsx": {
-    "": {
-      "id": "(app-client)/./components/post-operations.tsx",
-      "name": "",
-      "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/post-operations.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
-      ],
-      "async": false
-    },
-    "PostOperations": {
-      "id": "(app-client)/./components/post-operations.tsx",
-      "name": "PostOperations",
-      "chunks": [
-        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     }
@@ -1351,6 +1299,84 @@
       "name": "default",
       "chunks": [
         "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\user-auth-form.tsx": {
+    "": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "UserAuthForm": {
+      "id": "(app-client)/./components/user-auth-form.tsx",
+      "name": "UserAuthForm",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-create-button.tsx": {
+    "": {
+      "id": "(app-client)/./components/post-create-button.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/post-create-button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+      ],
+      "async": false
+    },
+    "PostCreateButton": {
+      "id": "(app-client)/./components/post-create-button.tsx",
+      "name": "PostCreateButton",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\post-operations.tsx": {
+    "": {
+      "id": "(app-client)/./components/post-operations.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/post-operations.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
+      ],
+      "async": false
+    },
+    "PostOperations": {
+      "id": "(app-client)/./components/post-operations.tsx",
+      "name": "PostOperations",
+      "chunks": [
+        "app/(dashboard)/dashboard/loading:app/(dashboard)/dashboard/loading"
       ],
       "async": false
     }
@@ -1435,32 +1461,6 @@
       "name": "suspense",
       "chunks": [
         "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\main-nav.tsx": {
-    "": {
-      "id": "(app-client)/./components/main-nav.tsx",
-      "name": "",
-      "chunks": [
-        "app/(docs)/layout:app/(docs)/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/main-nav.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(docs)/layout:app/(docs)/layout"
-      ],
-      "async": false
-    },
-    "MainNav": {
-      "id": "(app-client)/./components/main-nav.tsx",
-      "name": "MainNav",
-      "chunks": [
-        "app/(docs)/layout:app/(docs)/layout"
       ],
       "async": false
     }
@@ -1569,110 +1569,6 @@
       "async": false
     }
   },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\user-auth-form.tsx": {
-    "": {
-      "id": "(app-client)/./components/user-auth-form.tsx",
-      "name": "",
-      "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/user-auth-form.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
-    },
-    "UserAuthForm": {
-      "id": "(app-client)/./components/user-auth-form.tsx",
-      "name": "UserAuthForm",
-      "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\user-register-form.tsx": {
-    "": {
-      "id": "(app-client)/./components/user-register-form.tsx",
-      "name": "",
-      "chunks": [
-        "app/(auth)/register/page:app/(auth)/register/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/user-register-form.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(auth)/register/page:app/(auth)/register/page"
-      ],
-      "async": false
-    },
-    "UserRegisterForm": {
-      "id": "(app-client)/./components/user-register-form.tsx",
-      "name": "UserRegisterForm",
-      "chunks": [
-        "app/(auth)/register/page:app/(auth)/register/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\client\\image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\esm\\client\\image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
-      ],
-      "async": false
-    }
-  },
   "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\components\\search.tsx": {
     "": {
       "id": "(app-client)/./components/search.tsx",
@@ -1753,6 +1649,58 @@
     "DashboardTableOfContents": {
       "id": "(app-client)/./components/toc.tsx",
       "name": "DashboardTableOfContents",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\Acer\\Desktop\\Проект по курсу React\\student-dashboard\\node_modules\\.pnpm\\next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/.pnpm/next@13.2.3_@babel+core@7.21.0_@opentelemetry+api@1.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "default",
       "chunks": [
         "app/(docs)/docs/[[...slug]]/page:app/(docs)/docs/[[...slug]]/page"
       ],

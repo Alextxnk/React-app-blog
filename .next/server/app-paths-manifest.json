@@ -1,10 +1,8 @@
 {
+  "/(marketing)/page": "app/(marketing)/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
   "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
   "/(dashboard)/dashboard/billing/page": "app/(dashboard)/dashboard/billing/page.js",
   "/(dashboard)/dashboard/settings/page": "app/(dashboard)/dashboard/settings/page.js",
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(auth)/register/page": "app/(auth)/register/page.js",
-  "/(marketing)/page": "app/(marketing)/page.js",
-  "/(marketing)/blog/page": "app/(marketing)/blog/page.js",
   "/(docs)/docs/[[...slug]]/page": "app/(docs)/docs/[[...slug]]/page.js"
 }
