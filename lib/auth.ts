@@ -2,6 +2,7 @@ import { PrismaAdapter } from '@next-auth/prisma-adapter';
 import { NextAuthOptions } from 'next-auth';
 import EmailProvider from 'next-auth/providers/email';
 import GitHubProvider from 'next-auth/providers/github';
+import CredentialsProvider from 'next-auth/providers/credentials';
 import { Client } from 'postmark';
 
 import { siteConfig } from '@/config/site';
@@ -26,6 +27,29 @@ export const authOptions: NextAuthOptions = {
          clientId: process.env.GITHUB_CLIENT_ID || '',
          clientSecret: process.env.GITHUB_CLIENT_SECRET || ''
       }),
+      CredentialsProvider({
+         type: 'credentials',
+         credentials: {
+            email: {
+               label: 'Электронная почта',
+               type: 'email',
+               placeholder: 'name@example.com'
+            },
+            password: { label: 'Пароль', type: 'password' }
+         },
+         async authorize(credentials, req) {
+            const { email, password } = credentials as {
+               email: string;
+               password: string;
+            };
+            // find user from db
+            if (email !== 'alextxnk@gmail.com' || password !== '12345678') {
+               throw new Error('Invalid credentials');
+            }
+
+            return { id: '1', name: 'Alextxnk', email: 'alextxnk@gmail.com' };
+         }
+      })
       /* EmailProvider({
          from: process.env.SMTP_FROM,
          sendVerificationRequest: async ({ identifier, url, provider }) => {

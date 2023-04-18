@@ -29,20 +29,38 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
       resolver: zodResolver(userAuthSchema)
    });
 
+   /* type StateType = {
+      email: string;
+      password: string;
+   }; */
+
    const [isLoading, setIsLoading] = React.useState<boolean>(false);
    const [isGitHubLoading, setIsGitHubLoading] = React.useState<boolean>(false);
+   /* const [userInfo, setUserInfo] = React.useState<StateType>({
+      email: '',
+      password: ''
+   }); */
    const searchParams = useSearchParams();
 
    async function onSubmit(data: FormData) {
       setIsLoading(true);
 
-      const signInResult = await signIn('email', {
+      /* const signInResult = await signIn('email', {
          email: data.email.toLowerCase(),
+         redirect: false,
+         callbackUrl: searchParams?.get('from') || '/dashboard'
+      }); */
+
+      const signInResult = await signIn('credentials', {
+         email: data.email.toLowerCase(),
+         password: data.password.toLowerCase(),
          redirect: false,
          callbackUrl: searchParams?.get('from') || '/dashboard'
       });
 
       setIsLoading(false);
+
+      console.log(signInResult);
 
       if (!signInResult?.ok) {
          return toast({
@@ -78,6 +96,10 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                      id='email'
                      placeholder='name@example.com'
                      type='email'
+                     /* value={userInfo.email} */
+                     /* onChange={({ target }) =>
+                        setUserInfo({ ...userInfo, email: target.value })
+                     } */
                      autoCapitalize='none'
                      autoComplete='email'
                      autoCorrect='off'
@@ -98,6 +120,10 @@ export function UserAuthForm({ className, ...props }: UserAuthFormProps) {
                      <Input
                         id='password'
                         type={showPassword ? 'text' : 'password'}
+                        /* value={userInfo.password} */
+                        /* onChange={({ target }) =>
+                           setUserInfo({ ...userInfo, email: target.password })
+                        } */
                         autoCapitalize='none'
                         autoComplete='password'
                         autoCorrect='off'

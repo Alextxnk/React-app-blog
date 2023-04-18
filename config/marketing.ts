@@ -6,10 +6,10 @@ export const marketingConfig: MarketingConfig = {
          title: 'Блог',
          href: '/blog',
       },
-      {
+      /* {
          title: 'Пользователи',
          href: '/users',
-      },
+      }, */
       {
          title: 'Документация',
          href: '/docs'
