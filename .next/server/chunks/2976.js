@@ -1,14 +1,14 @@
-exports.id = 4391;
-exports.ids = [4391];
+exports.id = 2976;
+exports.ids = [2976];
 exports.modules = {
 
-/***/ 93196:
+/***/ 46530:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82456));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 13204));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79693))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 79693));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 13204))
 
 /***/ }),
 
@@ -52,6 +52,7 @@ function DocsLayout({ children  }) {
                     className: "container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0",
                     children: [
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_main_nav__WEBPACK_IMPORTED_MODULE_5__.MainNav, {
+                            href: "/",
                             items: _config_docs__WEBPACK_IMPORTED_MODULE_2__/* .docsConfig.mainNav */ .A.mainNav,
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_sidebar_nav__WEBPACK_IMPORTED_MODULE_7__.DocsSidebarNav, {
                                 items: _config_docs__WEBPACK_IMPORTED_MODULE_2__/* .docsConfig.sidebarNav */ .A.sidebarNav

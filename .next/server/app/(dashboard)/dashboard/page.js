@@ -323,12 +323,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 46287:
+/***/ 44327:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2054));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 67681, 23));
@@ -401,8 +401,8 @@ async function DashboardPage() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_shell__WEBPACK_IMPORTED_MODULE_11__/* .DashboardShell */ .r, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_header__WEBPACK_IMPORTED_MODULE_8__/* .DashboardHeader */ .x, {
-                heading: "Posts",
-                text: "Create and manage posts.",
+                heading: "Статьи",
+                text: "Создавайте публикации и управляйте ими",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_post_create_button__WEBPACK_IMPORTED_MODULE_9__.PostCreateButton, {})
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -417,10 +417,10 @@ async function DashboardPage() {
                             name: "post"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_empty_placeholder__WEBPACK_IMPORTED_MODULE_7__/* .EmptyPlaceholder.Title */ .$.Title, {
-                            children: "No posts created"
+                            children: "Нет созданных статей"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_empty_placeholder__WEBPACK_IMPORTED_MODULE_7__/* .EmptyPlaceholder.Description */ .$.Description, {
-                            children: "You don't have any posts yet. Start creating content."
+                            children: "У вас еще нет статей. Начните создавать контент"
                         }),
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_post_create_button__WEBPACK_IMPORTED_MODULE_9__.PostCreateButton, {
                             className: (0,_lib_utils__WEBPACK_IMPORTED_MODULE_6__.cn)((0,_components_ui_button__WEBPACK_IMPORTED_MODULE_12__/* .buttonVariants */ .d)({
@@ -444,7 +444,7 @@ async function DashboardPage() {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,5226,2584,4217,312,3360,4627,6570,8464,8672,1333,7728,4690], () => (__webpack_exec__(60493)));
+var __webpack_exports__ = __webpack_require__.X(0, [1381,5577,5937,9337,5226,2584,4217,312,3360,4627,6570,8464,8672,1333,7562,4690], () => (__webpack_exec__(60493)));
 module.exports = __webpack_exports__;
 
 })();

@@ -3,7 +3,7 @@
 3:I{"id":"7876","name":"ThemeProvider","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-3f6fd6c37e3031e5"],"async":false}
 4:I{"id":"1397","name":"","chunks":["2272:webpack-a743d1f3479792ee","5827:5827-806c6edfe9cca872"],"async":false}
 5:I{"id":"9584","name":"","chunks":["2272:webpack-a743d1f3479792ee","5827:5827-806c6edfe9cca872"],"async":false}
-6:I{"id":"5753","name":"","chunks":["5753:5753-fa705878aeef53f4","2259:app/(marketing)/pricing/page-e0541bfe909808d9"],"async":false}
+6:I{"id":"5753","name":"","chunks":["5753:5753-fa705878aeef53f4","7316:7316-a5c4173dd82d9732","9610:app/(marketing)/blog/page-5a319afa85c7c0eb"],"async":false}
 7:I{"id":"6476","name":"UserRegisterForm","chunks":["5753:5753-fa705878aeef53f4","2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","5977:5977-9a97235f654c28dd","8030:8030-b874430301c63374","7631:7631-8de0fe5290fbfd4e","5543:5543-0248b664d5f017b5","9566:app/(auth)/register/page-577e4c85595fbbe8"],"async":false}
 8:I{"id":"5139","name":"Analytics","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-3f6fd6c37e3031e5"],"async":false}
 9:I{"id":"988","name":"Toaster","chunks":["2822:2822-fc67b7c96da88f84","6552:6552-c210f0e39e25e91f","7397:7397-5ba9985e41bc5115","3185:app/layout-3f6fd6c37e3031e5"],"async":false}

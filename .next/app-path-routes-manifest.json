@@ -8,9 +8,9 @@
   "/(docs)/guides/[...slug]/page": "/guides/[...slug]",
   "/(docs)/guides/page": "/guides",
   "/(editor)/editor/[postId]/page": "/editor/[postId]",
-  "/(marketing)/[...slug]/page": "/[...slug]",
   "/(marketing)/blog/[...slug]/page": "/blog/[...slug]",
+  "/(marketing)/pricing/page": "/pricing",
+  "/(marketing)/[...slug]/page": "/[...slug]",
   "/(marketing)/blog/page": "/blog",
-  "/(marketing)/page": "/",
-  "/(marketing)/pricing/page": "/pricing"
+  "/(marketing)/page": "/"
 }

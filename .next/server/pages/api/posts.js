@@ -47,6 +47,24 @@ module.exports = require("zod");
 
 /***/ }),
 
+/***/ 12362:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "q": () => (/* binding */ withMethods)
+/* harmony export */ });
+function withMethods(methods, handler) {
+    return async function(req, res) {
+        if (req.method && !methods.includes(req.method)) {
+            return res.status(405).end();
+        }
+        return handler(req, res);
+    };
+}
+
+
+/***/ }),
+
 /***/ 91850:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -75,8 +93,6 @@ class RequiresProPlanError extends Error {
     }
 }
 
-// EXTERNAL MODULE: ./lib/subscription.ts
-var subscription = __webpack_require__(56383);
 ;// CONCATENATED MODULE: ./pages/api/posts/index.ts
 
 
@@ -84,7 +100,7 @@ var subscription = __webpack_require__(56383);
 
 
 
-
+// import { getUserSubscriptionPlan } from "@/lib/subscription"
 const postCreateSchema = external_zod_.object({
     title: external_zod_.string(),
     content: external_zod_.string().optional()
@@ -115,20 +131,21 @@ async function handler(req, res) {
     }
     if (req.method === "POST") {
         try {
-            const subscriptionPlan = await (0,subscription/* getUserSubscriptionPlan */.b)(user.id);
-            // If user is on a free plan.
-            // Check if user has reached limit of 3 posts.
-            if (!subscriptionPlan?.isPro) {
-                const count = await db.db.post.count({
-                    where: {
-                        authorId: user.id
-                    }
-                });
-                if (count >= 3) {
-                    throw new RequiresProPlanError();
-                }
-            }
-            const body = postCreateSchema.parse(req.body);
+            /* const subscriptionPlan = await getUserSubscriptionPlan(user.id)
+
+      // If user is on a free plan.
+      // Check if user has reached limit of 3 posts.
+      if (!subscriptionPlan?.isPro) {
+         const count = await db.post.count({
+            where: {
+               authorId: user.id,
+            },
+         })
+
+         if (count >= 3) {
+            throw new RequiresProPlanError()
+         }
+      } */ const body = postCreateSchema.parse(req.body);
             const post = await db.db.post.create({
                 data: {
                     title: body.title,
@@ -166,7 +183,7 @@ async function handler(req, res) {
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1682,4994], () => (__webpack_exec__(91850)));
+var __webpack_exports__ = __webpack_require__.X(0, [1682], () => (__webpack_exec__(91850)));
 module.exports = __webpack_exports__;
 
 })();

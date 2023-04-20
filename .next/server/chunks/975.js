@@ -70,6 +70,7 @@ async function MarketingLayout({ children  }) {
                     className: "flex h-16 items-center justify-between border-b border-b-slate-200 py-4",
                     children: [
                         /*#__PURE__*/ jsx_runtime.jsx(main_nav.MainNav, {
+                            href: "/",
                             items: marketingConfig.mainNav
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx("nav", {

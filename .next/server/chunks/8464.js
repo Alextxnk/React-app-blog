@@ -194,14 +194,16 @@ function MobileNav({ items , children  }) {
 
 
 
-function MainNav({ items , children  }) {
+function MainNav({ href , items , children  }) {
     const segment = (0,navigation.useSelectedLayoutSegment)();
     const [showMobileMenu, setShowMobileMenu] = react_.useState(false);
+    // const { data: session } = useSession();
+    // console.log(session);
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         className: "flex gap-6 md:gap-10",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)((link_default()), {
-                href: "/dashboard",
+                href: href,
                 className: "hidden items-center space-x-2 md:flex",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(icons/* Icons.student */.P.student, {}),

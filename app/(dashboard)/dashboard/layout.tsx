@@ -23,7 +23,7 @@ export default async function DashboardLayout({
       <div className='mx-auto flex flex-col space-y-6'>
          <header className='container sticky top-0 z-40 bg-white dark:bg-slate-900 dark:text-slate-50'>
             <div className='flex h-16 items-center justify-between border-b border-b-slate-200 py-4'>
-               <MainNav items={dashboardConfig.mainNav} />
+               <MainNav href='/dashboard' items={dashboardConfig.mainNav} />
                <UserAccountNav
                   user={{
                      name: user.name,

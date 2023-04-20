@@ -3,8 +3,16 @@ import { DashboardConfig } from 'types';
 export const dashboardConfig: DashboardConfig = {
    mainNav: [
       {
-         title: 'Documentation',
+         title: 'Блог',
+         href: '/blog',
+      },
+      /* {
+         title: 'Документация',
          href: '/docs'
+      }, */
+      {
+         title: 'Чат',
+         href: '/chat'
       }
       /* {
       title: "Support",
@@ -14,7 +22,7 @@ export const dashboardConfig: DashboardConfig = {
    ],
    sidebarNav: [
       {
-         title: 'Posts',
+         title: 'Статьи',
          href: '/dashboard',
          icon: 'post'
       },
@@ -24,7 +32,7 @@ export const dashboardConfig: DashboardConfig = {
          icon: 'billing'
       }, */
       {
-         title: 'Settings',
+         title: 'Настройки',
          href: '/dashboard/settings',
          icon: 'settings'
       }

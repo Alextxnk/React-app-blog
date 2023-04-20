@@ -11,19 +11,24 @@ import { cn } from '@/lib/utils';
 import { Icons } from '@/components/icons';
 import { MobileNav } from '@/components/mobile-nav';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { useSession } from 'next-auth/react';
 
 interface MainNavProps {
+   href: string;
    items?: MainNavItem[];
    children?: React.ReactNode;
 }
 
-export function MainNav({ items, children }: MainNavProps) {
+export function MainNav({ href, items, children }: MainNavProps) {
    const segment = useSelectedLayoutSegment();
    const [showMobileMenu, setShowMobileMenu] = React.useState<boolean>(false);
 
+   // const { data: session } = useSession();
+   // console.log(session);
+
    return (
       <div className='flex gap-6 md:gap-10'>
-         <Link href='/dashboard' className='hidden items-center space-x-2 md:flex'>
+         <Link  href={href} className='hidden items-center space-x-2 md:flex'>
             <Icons.student />
             <span className='hidden font-bold sm:inline-block'>
                {siteConfig.name}

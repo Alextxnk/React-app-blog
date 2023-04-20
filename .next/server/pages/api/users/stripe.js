@@ -40,6 +40,24 @@ module.exports = require("next-auth/providers/github");
 
 /***/ }),
 
+/***/ 12362:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "q": () => (/* binding */ withMethods)
+/* harmony export */ });
+function withMethods(methods, handler) {
+    return async function(req, res) {
+        if (req.method && !methods.includes(req.method)) {
+            return res.status(405).end();
+        }
+        return handler(req, res);
+    };
+}
+
+
+/***/ }),
+
 /***/ 92055:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -62,7 +80,7 @@ const stripe = new (external_stripe_default())(process.env.STRIPE_API_KEY || "",
 
 /***/ }),
 
-/***/ 64468:
+/***/ 38461:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -75,8 +93,18 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next-auth/next"
 var next_ = __webpack_require__(62113);
-// EXTERNAL MODULE: ./config/subscriptions.ts
-var subscriptions = __webpack_require__(57802);
+;// CONCATENATED MODULE: ./config/subscriptions.ts
+const freePlan = {
+    name: "Free",
+    description: "The free plan is limited to 3 posts. Upgrade to the PRO plan for unlimited posts.",
+    stripePriceId: ""
+};
+const proPlan = {
+    name: "PRO",
+    description: "The PRO plan has unlimited posts.",
+    stripePriceId: process.env.STRIPE_PRO_MONTHLY_PLAN_ID || ""
+};
+
 // EXTERNAL MODULE: ./lib/auth.ts
 var auth = __webpack_require__(1682);
 ;// CONCATENATED MODULE: ./lib/api-middlewares/with-authentication.ts
@@ -96,8 +124,39 @@ function withAuthentication(handler) {
 var with_methods = __webpack_require__(12362);
 // EXTERNAL MODULE: ./lib/stripe.ts + 1 modules
 var stripe = __webpack_require__(92055);
-// EXTERNAL MODULE: ./lib/subscription.ts
-var subscription = __webpack_require__(56383);
+// EXTERNAL MODULE: ./lib/db.ts
+var db = __webpack_require__(71543);
+;// CONCATENATED MODULE: ./lib/subscription.ts
+// @ts-nocheck
+// TODO: Fix this when we turn strict mode on.
+
+
+async function getUserSubscriptionPlan(userId) {
+    const user = await db.db.user.findFirst({
+        where: {
+            id: userId
+        },
+        select: {
+            stripeSubscriptionId: true,
+            stripeCurrentPeriodEnd: true,
+            stripeCustomerId: true,
+            stripePriceId: true
+        }
+    });
+    if (!user) {
+        throw new Error("User not found");
+    }
+    // Check if user is on a pro plan.
+    const isPro = user.stripePriceId && user.stripeCurrentPeriodEnd?.getTime() + 86400000 > Date.now();
+    const plan = isPro ? proPlan : freePlan;
+    return {
+        ...plan,
+        ...user,
+        stripeCurrentPeriodEnd: user.stripeCurrentPeriodEnd?.getTime(),
+        isPro
+    };
+}
+
 ;// CONCATENATED MODULE: external "clsx"
 const external_clsx_namespaceObject = require("clsx");
 ;// CONCATENATED MODULE: external "tailwind-merge"
@@ -138,7 +197,7 @@ async function handler(req, res) {
             if (!user || !user.email) {
                 throw new Error("User not found.");
             }
-            const subscriptionPlan = await (0,subscription/* getUserSubscriptionPlan */.b)(user.id);
+            const subscriptionPlan = await getUserSubscriptionPlan(user.id);
             // The user is on the pro plan.
             // Create a portal session to manage subscription.
             if (subscriptionPlan.isPro && subscriptionPlan.stripeCustomerId) {
@@ -163,7 +222,7 @@ async function handler(req, res) {
                 customer_email: user.email,
                 line_items: [
                     {
-                        price: subscriptions/* proPlan.stripePriceId */.H.stripePriceId,
+                        price: proPlan.stripePriceId,
                         quantity: 1
                     }
                 ],
@@ -193,7 +252,7 @@ async function handler(req, res) {
 var __webpack_require__ = require("../../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [1682,4994], () => (__webpack_exec__(64468)));
+var __webpack_exports__ = __webpack_require__.X(0, [1682], () => (__webpack_exec__(38461)));
 module.exports = __webpack_exports__;
 
 })();

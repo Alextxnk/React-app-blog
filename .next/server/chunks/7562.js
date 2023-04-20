@@ -1,5 +1,5 @@
-exports.id = 7728;
-exports.ids = [7728];
+exports.id = 7562;
+exports.ids = [7562];
 exports.modules = {
 
 /***/ 88734:
@@ -11,12 +11,12 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 75786:
+/***/ 27534:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3280, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 69274, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3349, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 45407));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82456));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1020));
@@ -44,13 +44,20 @@ var navigation = __webpack_require__(25226);
 const dashboardConfig = {
     mainNav: [
         {
-            title: "Documentation",
-            href: "/docs"
+            title: "Блог",
+            href: "/blog"
+        },
+        /* {
+         title: 'Документация',
+         href: '/docs'
+      }, */ {
+            title: "Чат",
+            href: "/chat"
         }
     ],
     sidebarNav: [
         {
-            title: "Posts",
+            title: "Статьи",
             href: "/dashboard",
             icon: "post"
         },
@@ -59,7 +66,7 @@ const dashboardConfig = {
          href: '/dashboard/billing',
          icon: 'billing'
       }, */ {
-            title: "Settings",
+            title: "Настройки",
             href: "/dashboard/settings",
             icon: "settings"
         }
@@ -96,6 +103,7 @@ async function DashboardLayout({ children  }) {
                     className: "flex h-16 items-center justify-between border-b border-b-slate-200 py-4",
                     children: [
                         /*#__PURE__*/ jsx_runtime.jsx(main_nav.MainNav, {
+                            href: "/dashboard",
                             items: dashboardConfig.mainNav
                         }),
                         /*#__PURE__*/ jsx_runtime.jsx(user_account_nav.UserAccountNav, {
@@ -153,8 +161,8 @@ function DashboardLoading() {
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_components_shell__WEBPACK_IMPORTED_MODULE_4__/* .DashboardShell */ .r, {
         children: [
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_header__WEBPACK_IMPORTED_MODULE_1__/* .DashboardHeader */ .x, {
-                heading: "Posts",
-                text: "Create and manage posts.",
+                heading: "Статьи",
+                text: "Создавайте публикации и управляйте ими",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_post_create_button__WEBPACK_IMPORTED_MODULE_2__.PostCreateButton, {})
             }),
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -423,21 +431,21 @@ function PostCreateButton({ className , ...props }) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                title: "Untitled Post"
+                title: "Статья без названия"
             })
         });
         setIsLoading(false);
         if (!response?.ok) {
             if (response.status === 402) {
                 return (0,_hooks_use_toast__WEBPACK_IMPORTED_MODULE_3__/* .toast */ .Am)({
-                    title: "Limit of 3 posts reached.",
-                    description: "Please upgrade to the PRO plan.",
+                    title: "Достигнуто ограничение в 3 статьи",
+                    description: "Пожалуйста, перейдите на тарифный план PRO",
                     variant: "destructive"
                 });
             }
             return (0,_hooks_use_toast__WEBPACK_IMPORTED_MODULE_3__/* .toast */ .Am)({
-                title: "Something went wrong.",
-                description: "Your post was not created. Please try again.",
+                title: "Что-то пошло не так",
+                description: "Ваш статья не была создана. Пожалуйста, попробуйте снова",
                 variant: "destructive"
             });
         }
@@ -459,7 +467,7 @@ function PostCreateButton({ className , ...props }) {
             }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_icons__WEBPACK_IMPORTED_MODULE_5__/* .Icons.add */ .P.add, {
                 className: "mr-2 h-4 w-4"
             }),
-            "New post"
+            "Новая статья"
         ]
     });
 }
@@ -810,15 +818,8 @@ function UserAccountNav({ user  }) {
                     /*#__PURE__*/ jsx_runtime_.jsx(dropdown_menu/* DropdownMenuItem */.Xi, {
                         asChild: true,
                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                            href: "/dashboard/billing",
-                            children: "Billing"
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(dropdown_menu/* DropdownMenuItem */.Xi, {
-                        asChild: true,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                             href: "/dashboard/settings",
-                            children: "Settings"
+                            children: "Настройки"
                         })
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(dropdown_menu/* DropdownMenuSeparator */.VD, {}),
@@ -830,7 +831,7 @@ function UserAccountNav({ user  }) {
                                 callbackUrl: `${window.location.origin}/login`
                             });
                         },
-                        children: "Sign out"
+                        children: "Выйти"
                     })
                 ]
             })
